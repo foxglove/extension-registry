@@ -3,7 +3,7 @@
     "id": "foxglove.MapPanel",
     "name": "Map Panel",
     "description": "Plot GPS points on a 2D map using OpenStreetMap",
-    "author": "Foxglove Technologies <https://foxglove.dev/>",
+    "publisher": "Foxglove",
     "homepage": "https://foxglove.dev/",
     "license": "MPL-2.0",
     "version": "0.0.1",
