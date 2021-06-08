@@ -4,7 +4,9 @@
     "name": "Map Panel",
     "description": "Plot GPS points on a 2D map using OpenStreetMap",
     "publisher": "Foxglove",
-    "homepage": "https://foxglove.dev/",
+    "homepage": "https://github.com/foxglove/studio-extension-map",
+    "readme": "https://raw.githubusercontent.com/foxglove/studio-extension-map/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/foxglove/studio-extension-map/main/CHANGELOG.md",
     "license": "MPL-2.0",
     "version": "0.0.1",
     "shasum": "d38d7c5b63729bb84fb0c4d8594b7e955a5182a2",
@@ -15,6 +17,31 @@
       "gps",
       "earth",
       "openstreetmap"
+    ],
+    "time": {
+      "modified": "2021-06-07T19:21:37.675Z",
+      "created": "2021-06-07T19:21:37.675Z",
+      "0.0.1": "2021-06-07T19:21:37.675Z"
+    }
+  },
+  {
+    "id": "foxglove.TurtleSim",
+    "name": "Turtlesim",
+    "description": "Interact with the ROS turtlesim node",
+    "publisher": "Foxglove",
+    "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
+    "readme": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/CHANGELOG.md",
+    "license": "MPL-2.0",
+    "version": "0.0.1",
+    "shasum": "d38d7c5b63729bb84fb0c4d8594b7e955a5182a2",
+    "foxe": "https://some.link.to/turtlesim-0.0.1.foxe",
+    "keywords": [
+      "ros",
+      "turtlesim",
+      "turtle",
+      "simulator",
+      "tutorial"
     ],
     "time": {
       "modified": "2021-06-07T19:21:37.675Z",
