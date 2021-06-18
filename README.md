@@ -4,9 +4,10 @@ A public marketplace for Foxglove Studio extensions
 
 ## Adding Your Extension
 
-After writing your custom Foxglove Studio extension and running `yarn package` on your source code folder, push it up to a public GitHub repo.
-
-Then, open a PR in this repo to update `extensions.json` and this `README` with your extension information.
+- Write your custom Foxglove Studio extension 
+- Run `yarn package` in the folder containing your extension source code
+- Push your code up to a public GitHub repo
+- Open a PR in this repo to update `extensions.json` and this `README`'s "Extensions" section with your extension information
 
 ## Extensions
 
