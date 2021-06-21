@@ -1,22 +1,16 @@
 [
   {
-    "id": "2535ae95-8b23-44c2-aaf2-1dd11ff8af25",
-    "name": "Turtlesim",
+    "id": "foxglove.studio-extension-turtlesim",
+    "name": "turtlesim",
     "description": "Interact with the ROS turtlesim node",
-    "publisher": "Foxglove",
+    "publisher": "foxglove",
     "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
     "readme": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/README.md",
     "changelog": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/CHANGELOG.md",
     "license": "MPL-2.0",
     "version": "0.0.1",
-    "shasum": "786b449f76db375a4e8b74fd61733f1831f8b616",
+    "sha256sum": "6fb9647d5e202f2e030cd16a36706a43481d5065a54669967db68690e2199338",
     "foxe": "https://github.com/foxglove/studio-extension-turtlesim/releases/download/v0.0.1/foxglove.studio-extension-turtlesim-0.0.1.foxe",
-    "keywords": [
-      "ros",
-      "turtlesim",
-      "turtle",
-      "simulator",
-      "tutorial"
-    ]
+    "keywords": ["ros","turtlesim","turtle","simulator","tutorial"]
   }
 ]
