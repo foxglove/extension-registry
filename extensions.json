@@ -16,7 +16,7 @@
   {
     "id": "uwprl.studio-extension-mushr",
     "name": "mushr",
-    "description": "Custom buttons for differentiating publish types for the MuShr base package",
+    "description": "Custom buttons for differentiating publish types for the MuSHR base package",
     "publisher": "uwprl",
     "homepage": "https://github.com/mcdoerr/foxglove-mushr-extension",
     "readme": "https://github.com/mcdoerr/foxglove-mushr-extension/blob/main/README.md",
