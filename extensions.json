@@ -24,7 +24,7 @@
     "license": "UNLICENSED",
     "version": "0.0.0",
     "sha256sum": "739e3010d142fbdcccedea73c9653575542515a28af85b25dc92c8b93ae10bc7",
-    "foxe": "https://github.com/mcdoerr/foxglove-mushr-extension/blob/main/releases/uwprl.MushrTeleopButtons-0.0.0.foxe",
+    "foxe": "https://github.com/mcdoerr/foxglove-mushr-extension/raw/main/releases/uwprl.MushrTeleopButtons-0.0.0.foxe",
     "keywords": ["mushr","simulator"]
   }
 ]
