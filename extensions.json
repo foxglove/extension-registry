@@ -12,5 +12,19 @@
     "sha256sum": "6fb9647d5e202f2e030cd16a36706a43481d5065a54669967db68690e2199338",
     "foxe": "https://github.com/foxglove/studio-extension-turtlesim/releases/download/v0.0.1/foxglove.studio-extension-turtlesim-0.0.1.foxe",
     "keywords": ["ros","turtlesim","turtle","simulator","tutorial"]
+  },
+  {
+    "id": "uwprl.studio-extension-mushr",
+    "name": "mushr",
+    "description": "Custom buttons for differentiating publish types for the MuSHR base package",
+    "publisher": "uwprl",
+    "homepage": "https://github.com/mcdoerr/foxglove-mushr-extension",
+    "readme": "https://github.com/mcdoerr/foxglove-mushr-extension/blob/main/README.md",
+    "changelog": "https://github.com/mcdoerr/foxglove-mushr-extension/blob/main/CHANGELOG.md",
+    "license": "UNLICENSED",
+    "version": "0.0.0",
+    "sha256sum": "739e3010d142fbdcccedea73c9653575542515a28af85b25dc92c8b93ae10bc7",
+    "foxe": "https://github.com/mcdoerr/foxglove-mushr-extension/raw/main/releases/uwprl.MushrTeleopButtons-0.0.0.foxe",
+    "keywords": ["mushr","simulator"]
   }
 ]

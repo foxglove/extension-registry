@@ -14,3 +14,4 @@ Foxglove Studio under the extension sidebar.
 ## Extensions
 
 - [Turtlesim](https://github.com/foxglove/studio-extension-turtlesim) – Interact with the ROS turtlesim node
+- [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) - Use custom buttons with the MuShr package
