@@ -26,5 +26,19 @@
     "sha256sum": "739e3010d142fbdcccedea73c9653575542515a28af85b25dc92c8b93ae10bc7",
     "foxe": "https://github.com/mcdoerr/foxglove-mushr-extension/raw/main/releases/uwprl.MushrTeleopButtons-0.0.0.foxe",
     "keywords": ["mushr","simulator"]
+  },
+  {
+    "id": "sideways.studio-extension-sideways",
+    "name": "Sideways Teleop Panel",
+    "description": "This is the teleoperation panel developed by Sideways a company of autonomous vehicles",
+    "publisher": "sideways",
+    "homepage": "https://github.com/rscova/foxglove-sideways-teleop-extension",
+    "readme": "https://raw.githubusercontent.com/rscova/foxglove-sideways-teleop-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/rscova/foxglove-sideways-teleop-extension/main/CHANGELOG.md",
+    "license": "UNLICENSED",
+    "version": "0.0.1",
+    "sha256sum": "1193589eb2779a1224328defca4e2ca378ef786474be1842ac43b674b9535d82",
+    "foxe": "https://github.com/rscova/foxglove-sideways-teleop-extension/releases/download/v0.0.1/sideways.sideways-teleop-extension-0.0.1.foxe",
+    "keywords": ["sideways","teleop"]
   }
 ]
