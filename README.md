@@ -1,18 +1,18 @@
-# studio-extension-marketplace
+# Foxglove Studio extension marketplace
 
-A public marketplace for Foxglove Studio extensions. Extensions here are available for install within
+A public marketplace for [Foxglove Studio](https://github.com/foxglove/studio) extensions. Extensions here are available for install within
 Foxglove Studio under the extension sidebar.
 
-## Adding Your Extension
+## Adding your extension to the marketplace
 
-- Write your custom Foxglove Studio extension using our [fox](https://github.com/foxglove/fox) tool.
-- Run `yarn package` in your extension to package it up into a .foxe file.
-- Publish your .foxe file somewhere public. We recommend github releases alongside your code.
-- Open a PR in this repo to update `extensions.json` and this `README`'s "Extensions" section with your extension information.
-- Once we merge your PR, users will be able to discover your extension by browsing within Foxglove Studio.
+1. Write your custom Foxglove Studio extension, starting with our [create-foxglove-extension](https://github.com/foxglove/create-foxglove-extension) tool.
+1. Run `yarn package` in your extension to package it up into a .foxe file.
+1. Publish your .foxe file somewhere public. We recommend [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) alongside your code.
+1. Open a PR in this repo to update `extensions.json` and this `README`'s "Extensions" section with your extension information.
+1. Once we merge your PR, users will be able to discover your extension by browsing within Foxglove Studio.
 
-## Extensions
+# Extensions
 
 - [Turtlesim](https://github.com/foxglove/studio-extension-turtlesim) – Interact with the ROS turtlesim node
-- [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) - Use custom buttons with the MuShr package
-- [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) - Use an Xbox controller to control a robot
+- [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) – Use custom buttons with the MuShr package
+- [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) – Use an Xbox controller to control a robot
