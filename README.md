@@ -16,3 +16,4 @@ Foxglove Studio under the extension sidebar.
 - [Turtlesim](https://github.com/foxglove/studio-extension-turtlesim) – Interact with the ROS turtlesim node
 - [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) – Use custom buttons with the MuShr package
 - [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) – Use an Xbox controller to control a robot
+- [ROS2 Parameters](https://github.com/danclapp4/ros2-parameter-extension.git) - Interact with ROS2 Parameters
