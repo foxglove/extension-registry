@@ -49,7 +49,7 @@
     "homepage": "https://github.com/danclapp4/ros2-parameter-extension.git",
     "readme": "https://raw.githubusercontent.com/danclapp4/ros2-parameter-extension/main/README.md",
     "changelog": "https://raw.githubusercontent.com/danclapp4/ros2-parameter-extension/main/CHANGELOG.md",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "version": "0.0.1",
     "sha256sum": "f6ee65231c53666b7e64f779c0c4d8c619338488c76e0c4513818c72d3405792",
     "foxe": "https://github.com/danclapp4/ros2-parameter-extension/releases/download/v0.0.1/danielclapp.ros2-parameter-extension-0.0.1.foxe",
