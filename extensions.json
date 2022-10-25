@@ -14,6 +14,20 @@
     "keywords": ["ros","turtlesim","turtle","simulator","tutorial"]
   },
   {
+    "id": "foxglove.blank-panel-extension",
+    "name": "Blank Panel",
+    "description": "Add a little space to your layout",
+    "publisher": "foxglove",
+    "homepage": "https://github.com/foxglove/blank-panel-extension",
+    "readme": "https://raw.githubusercontent.com/foxglove/blank-panel-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/foxglove/blank-panel-extension/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
+    "foxe": "https://github.com/foxglove/blank-panel-extension/releases/download/v1.0.0/foxglove.blank-panel-extension-1.0.0.foxe",
+    "keywords": ["blank","panel","empty","logo","spacer"]
+  },
+  {
     "id": "uwprl.studio-extension-mushr",
     "name": "mushr",
     "description": "Custom buttons for differentiating publish types for the MuSHR base package",
