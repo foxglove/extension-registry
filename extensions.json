@@ -68,5 +68,19 @@
     "sha256sum": "f03d7a517ba6f7d57564eec965358055c87285a8a504d5488af969767a76c4ab",
     "foxe": "https://github.com/danclapp4/ros2-parameter-extension/releases/download/v0.0.1/danielclapp.ros2-parameter-extension-0.0.1.foxe",
     "keywords": ["ROS2", "Parameters", "Param"]
+  },
+  {
+    "id": "foxglove.studio-extension-nipple",
+    "name": "nipple",
+    "description": "Twist message publisher",
+    "publisher": "yulong",
+    "homepage": "https://github.com/yulong88888/foxglove-nipple",
+    "readme": "https://raw.githubusercontent.com/yulong88888/foxglove-nipple/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/yulong88888/foxglove-nipple/main/CHANGELOG.md",
+    "license": "UNLICENSED",
+    "version": "0.0.1",
+    "sha256sum": "83a8acdeb1b186b0214a2838032329d1a4482fa3a4c45d0d85181468bfa2304b",
+    "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.1/yulong.foxglove-nipple-0.0.1.foxe",
+    "keywords": ["teleop", "nipple", "joytick"]
   }
 ]
