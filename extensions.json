@@ -79,7 +79,7 @@
     "changelog": "https://raw.githubusercontent.com/yulong88888/foxglove-nipple/main/CHANGELOG.md",
     "license": "UNLICENSED",
     "version": "0.0.1",
-    "sha256sum": "83a8acdeb1b186b0214a2838032329d1a4482fa3a4c45d0d85181468bfa2304b",
+    "sha256sum": "2f905b12887b70f29391fa48045aa4369200e7fa4190467c425cd8b5d9833144",
     "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.1/yulong.foxglove-nipple-0.0.1.foxe",
     "keywords": ["teleop", "nipple", "joytick"]
   }
