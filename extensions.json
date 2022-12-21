@@ -93,7 +93,7 @@
     "changelog": "https://github.com/codewithpassion/foxglove-studio-h264-extension/blob/v0.1.0/CHANGELOG.md",
     "license": "MIT",
     "version": "0.1.0",
-    "sha256sum": "a9f266acb3ef69dcb5f30d88626eca048daafbced0c8c866a06206483e24c76d",
+    "sha256sum": "87e0a4fe397974fb2e3771f370009ccdbe195498d4792c04bc08b2e2482bda71",
     "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
     "keywords": ["video", "h264"]
   }
