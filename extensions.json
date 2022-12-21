@@ -82,5 +82,19 @@
     "sha256sum": "a9f266acb3ef69dcb5f30d88626eca048daafbced0c8c866a06206483e24c76d",
     "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.1/yulong.virtual-joystick-0.0.1.foxe",
     "keywords": ["joystick"]
+  },
+  {
+    "id": "missionrobotics.h264-panel",
+    "name": "H264 video panel",
+    "description": "Experimental H264 playback",
+    "publisher": "Mission Robotics",
+    "homepage": "https://github.com/codewithpassion/foxglove-studio-h264-extension",
+    "readme": "https://github.com/codewithpassion/foxglove-studio-h264-extension/blob/v0.1.0/README.md",
+    "changelog": "https://github.com/codewithpassion/foxglove-studio-h264-extension/blob/v0.1.0/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.1.0",
+    "sha256sum": "a9f266acb3ef69dcb5f30d88626eca048daafbced0c8c866a06206483e24c76d",
+    "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
+    "keywords": ["video", "h264"]
   }
 ]
