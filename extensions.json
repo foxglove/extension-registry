@@ -96,5 +96,19 @@
     "sha256sum": "87e0a4fe397974fb2e3771f370009ccdbe195498d4792c04bc08b2e2482bda71",
     "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
     "keywords": ["video", "h264"]
+  },
+    {
+    "id": "ivi.orientation-extension",
+    "name": "orientation",
+    "description": "Display object orientation in 2D space",
+    "publisher": "IVI",
+    "homepage": "https://github.com/CourchesneA/foxglove-orientation-panel",
+    "readme": "https://github.com/CourchesneA/foxglove-orientation-panel/blob/main/README.md",
+    "changelog": "https://github.com/CourchesneA/foxglove-orientation-panel/blob/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.0.1",
+    "sha256sum": "6afa4437c45cb5b60a99405e40b0c51b4edfcc0f9a640532cc218962da1ee2b8",
+    "foxe": "https://github.com/CourchesneA/foxglove-orientation-panel/releases/download/v0.0.1/ivi.orientation-extension-0.0.1.foxe",
+    "keywords": ["orientation","2d","ros","ros2"]
   }
 ]
