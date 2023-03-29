@@ -97,7 +97,7 @@
     "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
     "keywords": ["video", "h264"]
   },
-    {
+  {
     "id": "ivi.orientation-extension",
     "name": "orientation",
     "description": "Display object orientation in 2D space",
