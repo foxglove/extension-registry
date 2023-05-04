@@ -110,5 +110,19 @@
     "sha256sum": "6afa4437c45cb5b60a99405e40b0c51b4edfcc0f9a640532cc218962da1ee2b8",
     "foxe": "https://github.com/CourchesneA/foxglove-orientation-panel/releases/download/v0.0.1/ivi.orientation-extension-0.0.1.foxe",
     "keywords": ["orientation","2d","ros","ros2"]
+  },
+  {
+    "id": "metaverseindustriesllc.plotly",
+    "name": "Plotly",
+    "description": "Render plotly.Plot JSON messages",
+    "publisher": "Metaverse Industries LLC",
+    "homepage": "https://github.com/MetaverseIndustries/plotly-panel",
+    "readme": "https://raw.githubusercontent.com/MetaverseIndustries/plotly-panel/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/MetaverseIndustries/plotly-panel/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "b5c02cb834005affcf1873a6a481281a73428d04062bbf763863c8fb7e64fc95",
+    "foxe": "https://github.com/MetaverseIndustries/plotly-panel/releases/download/v1.0.0/metaverseindustriesllc.plotly-1.0.0.foxe",
+    "keywords": ["plotly", "plot", "chart", "2d"]
   }
 ]
