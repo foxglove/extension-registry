@@ -37,7 +37,7 @@
     "changelog": "https://raw.githubusercontent.com/prl-mushr/foxglove-mushr-extension/main/CHANGELOG.md",
     "license": "UNLICENSED",
     "version": "1.0.0",
-    "sha256sum": "",
+    "sha256sum": "ac07f5f84b96ad1139b4d66b685b864cf5713081e198e63fccef7a0546dd1ab2",
     "foxe": "https://github.com/prl-mushr/foxglove-mushr-extension/releases/download/release_1_0_0/uwprl.MushrTeleopButtons-1.0.0.foxe",
     "keywords": ["mushr","simulator"]
   },
