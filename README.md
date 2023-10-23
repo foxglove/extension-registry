@@ -21,3 +21,4 @@ Foxglove Studio under the extension sidebar.
 - [Virtual Joystick](https://github.com/yulong88888/foxglove-nipple) - Easier to use twist topic publisher
 - [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
 - [2D orientation](https://github.com/CourchesneA/foxglove-orientation-panel) - Visualize 2D orientation from ROS imu or quaternion messages
+- [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator

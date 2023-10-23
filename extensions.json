@@ -124,5 +124,19 @@
     "sha256sum": "b5c02cb834005affcf1873a6a481281a73428d04062bbf763863c8fb7e64fc95",
     "foxe": "https://github.com/MetaverseIndustries/plotly-panel/releases/download/v1.0.0/metaverseindustriesllc.plotly-1.0.0.foxe",
     "keywords": ["plotly", "plot", "chart", "2d"]
+  },
+  {
+    "id": "lynxdrone.battery-display",
+    "name": "battery-display",
+    "description": "Compact battery level indicator",
+    "publisher": "Lynxdrone",
+    "homepage": "https://github.com/Lynxdrone/foxglove-battery-extension",
+    "readme": "https://raw.githubusercontent.com/Lynxdrone/foxglove-battery-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/Lynxdrone/foxglove-battery-extension/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "12863df314ec682e23ebb74598e3e3e89e610fa960f3461b5e91a6896ed8228f",
+    "foxe": "https://github.com/Lynxdrone/foxglove-battery-extension/releases/download/1.0.0/lynxdrone.battery-display-1.0.0.foxe",
+    "keywords": ["ros","battery","indicator","robot"]
   }
 ]
