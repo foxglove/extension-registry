@@ -22,3 +22,4 @@ Foxglove Studio under the extension sidebar.
 - [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
 - [2D orientation](https://github.com/CourchesneA/foxglove-orientation-panel) - Visualize 2D orientation from ROS imu or quaternion messages
 - [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator
+- [Sonar details and Visualization](https://github.com/Gaurang-1402/foxglove-studio-sonar-visualization-extension) - Descriptive Sonar Visualization
