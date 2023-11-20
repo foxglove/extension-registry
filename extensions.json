@@ -138,5 +138,19 @@
     "sha256sum": "12863df314ec682e23ebb74598e3e3e89e610fa960f3461b5e91a6896ed8228f",
     "foxe": "https://github.com/Lynxdrone/foxglove-battery-extension/releases/download/1.0.0/lynxdrone.battery-display-1.0.0.foxe",
     "keywords": ["ros","battery","indicator","robot"]
+  },
+  {
+    "id": "sonar.visualization",
+    "name": "sonar-visualization",
+    "description": "Descriptive visualization for sonar data",
+    "publisher": "Gaurang Ruparelia",
+    "homepage": "https://github.com/Gaurang-1402/foxglove-studio-sonar-visualization-extension",
+    "readme": "https://github.com/Gaurang-1402/foxglove-studio-sonar-visualization-extension/blob/main/README.md",
+    "changelog": "https://github.com/Gaurang-1402/foxglove-studio-sonar-visualization-extension/blob/main/CHANGELOG.md",
+    "license": "GPL-3.0 license",
+    "version": "1.0.0",
+    "sha256sum": "1e3f3bf15934f84d3136d957cfbb7c89d1bb8f9a85095938525d5410f1228d4f",
+    "foxe": "https://github.com/Gaurang-1402/foxglove-studio-sonar-visualization-extension/blob/main/gaurangruparelia.Sonar%20Visualization-0.0.1.foxe",
+    "keywords": ["ros2","sonar","visualization","drone","ultrasonic"]
   }
 ]
