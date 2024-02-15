@@ -152,5 +152,19 @@
     "sha256sum": "bfbb33b91f337a25de79449f9b529bc94bfaf908187f39cef24d70d4e1083434",
     "foxe": "https://github.com/joshnewans/foxglove-joystick/releases/download/0.0.3/joshnewans.joy-panel-0.0.3.foxe",
     "keywords": ["ros","joystick","gamepad","control","interactive","touch"]
+  },
+  {
+    "id": "joshnewans.webcam-panel",
+    "name": "Webcam",
+    "description": "Publish data from your device's webcam",
+    "publisher": "Josh Newans",
+    "homepage": "https://github.com/joshnewans/foxglove-webcam/",
+    "readme": "https://raw.githubusercontent.com/joshnewans/foxglove-webcam/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/joshnewans/foxglove-webcam/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.0.2",
+    "sha256sum": "5b2dbe3280a7833c8d827e4f3b8acfa4df9cf4cd16a5db037885a6cfcdd42041",
+    "foxe": "https://github.com/joshnewans/foxglove-webcam/releases/download/0.0.2/joshnewans.webcam-panel-0.0.2.foxe",
+    "keywords": ["ros","webcam"]
   }
 ]
