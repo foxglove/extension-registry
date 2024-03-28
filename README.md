@@ -23,3 +23,4 @@ Foxglove Studio under the extension sidebar.
 - [2D orientation](https://github.com/CourchesneA/foxglove-orientation-panel) - Visualize 2D orientation from ROS imu or quaternion messages
 - [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
+- [Autoware msgs](https://github.com/kminoda/AutowareFoxgloveConverter) - Load Autoware related msgs
