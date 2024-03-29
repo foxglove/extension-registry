@@ -180,5 +180,5 @@
     "sha256sum": "d7b831c665111aeab5779bea6f5b8f7d5c3afa6d2200d1f79ba2bafbb799497c",
     "foxe": "https://github.com/kminoda/AutowareFoxgloveConverter/releases/download/v0.0.1/kminoda.AutowareFoxgloveConverter-0.0.1.foxe",
     "keywords": ["ros", "autoware"]
-  },
+  }
 ]
