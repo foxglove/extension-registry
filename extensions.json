@@ -193,6 +193,6 @@
     "version": "2.1.0",
     "sha256sum": "90af3124c1a68ab5b9b5d3faa480d1c77c0dd902ac1c7a71dea3f445c2df7939",
     "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/blob/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.1.0.foxe",
-    "keywords": ["ros", "nvidia", "nvblox"]
+    "keywords": ["ros", "nvidia", "nvblox", "isaac"]
   }
 ]
