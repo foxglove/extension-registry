@@ -1,15 +1,15 @@
-# Foxglove Studio extension marketplace
+# Foxglove extension registry
 
-A public marketplace for [Foxglove Studio](https://github.com/foxglove/studio) extensions. Extensions here are available for install within
-Foxglove Studio under the extension sidebar.
+A public registry for [Foxglove extensions](https://docs.foxglove.dev/docs/visualization/extensions/introduction/). Extensions here are available for install within
+Foxglove under the extension settings.
 
-## Adding your extension to the marketplace
+## Adding your extension to the registry
 
-1. Write your custom Foxglove Studio extension, starting with our [create-foxglove-extension](https://github.com/foxglove/create-foxglove-extension) tool.
+1. Write your custom Foxglove extension, starting with our [create-foxglove-extension](https://github.com/foxglove/create-foxglove-extension) tool.
 1. Run `yarn package` in your extension to package it up into a .foxe file.
 1. Publish your .foxe file somewhere public. We recommend [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) alongside your code.
 1. Open a PR in this repo to update `extensions.json` and this `README`'s "Extensions" section with your extension information.
-1. Once we merge your PR, users will be able to discover your extension by browsing within Foxglove Studio.
+1. Once we merge your PR, users will be able to discover your extension by browsing within Foxglove.
 
 # Extensions
 
