@@ -1,19 +1,5 @@
 [
   {
-    "id": "foxglove.studio-extension-turtlesim",
-    "name": "turtlesim",
-    "description": "Interact with the ROS turtlesim node",
-    "publisher": "foxglove",
-    "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
-    "readme": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/README.md",
-    "changelog": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/CHANGELOG.md",
-    "license": "MPL-2.0",,
-    "version": "0.0.1",
-    "sha256sum": "6fb9647d5e202f2e030cd16a36706a43481d5065a54669967db68690e2199338",
-    "foxe": "https://github.com/foxglove/studio-extension-turtlesim/releases/download/v0.0.1/foxglove.studio-extension-turtlesim-0.0.1.foxe",
-    "keywords": ["ros","turtlesim","turtle","simulator","tutorial"]
-  },
-  {
     "id": "foxglove.blank-panel-extension",
     "name": "Blank Panel",
     "description": "Add a little space to your layout",
@@ -21,7 +7,7 @@
     "homepage": "https://github.com/foxglove/blank-panel-extension",
     "readme": "https://raw.githubusercontent.com/foxglove/blank-panel-extension/main/README.md",
     "changelog": "https://raw.githubusercontent.com/foxglove/blank-panel-extension/main/CHANGELOG.md",
-    "license": "MIT",
+    "license": "MIT",,
     "version": "1.0.0",
     "sha256sum": "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
     "foxe": "https://github.com/foxglove/blank-panel-extension/releases/download/1.0.0/foxglove.blank-panel-extension-1.0.0.foxe",
@@ -78,9 +64,9 @@
     "readme": "https://raw.githubusercontent.com/yulong88888/foxglove-nipple/main/README.md",
     "changelog": "https://raw.githubusercontent.com/yulong88888/foxglove-nipple/main/CHANGELOG.md",
     "license": "MIT",
-    "version": "0.0.1",
-    "sha256sum": "a9f266acb3ef69dcb5f30d88626eca048daafbced0c8c866a06206483e24c76d",
-    "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.1/yulong.virtual-joystick-0.0.1.foxe",
+    "version": "0.0.2",
+    "sha256sum": "71ae6c6ffa4b86aa427d14fcc86af437fdca4b5e10cd714e70f95e1af324ceaf",
+    "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.2/yulong.virtual-joystick-0.0.2.foxe",
     "keywords": ["joystick"]
   },
   {
