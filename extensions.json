@@ -1,19 +1,5 @@
 [
   {
-    "id": "foxglove.studio-extension-turtlesim",
-    "name": "turtlesim",
-    "description": "Interact with the ROS turtlesim node",
-    "publisher": "foxglove",
-    "homepage": "https://github.com/foxglove/studio-extension-turtlesim",
-    "readme": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/README.md",
-    "changelog": "https://raw.githubusercontent.com/foxglove/studio-extension-turtlesim/main/CHANGELOG.md",
-    "license": "MPL-2.0",
-    "version": "0.0.1",
-    "sha256sum": "6fb9647d5e202f2e030cd16a36706a43481d5065a54669967db68690e2199338",
-    "foxe": "https://github.com/foxglove/studio-extension-turtlesim/releases/download/v0.0.1/foxglove.studio-extension-turtlesim-0.0.1.foxe",
-    "keywords": ["ros","turtlesim","turtle","simulator","tutorial"]
-  },
-  {
     "id": "foxglove.blank-panel-extension",
     "name": "Blank Panel",
     "description": "Add a little space to your layout",
