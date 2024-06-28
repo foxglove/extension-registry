@@ -18,5 +18,7 @@ jobs:
           node-version: 22
           cache: yarn
 
+      - run: yarn install --immutable
+
       - name: Validate extensions.json
         run: yarn validate
