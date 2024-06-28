@@ -65,7 +65,7 @@ async function main() {
 
     if (actualId !== extension.id) {
       throw new Error(
-        `ID mismatch, expected: ${extension.id}, actual from .foxe: ${actualId}`
+        `ID mismatch, extensions.json: ${extension.id}, actual from .foxe: ${actualId}`
       );
     }
 
