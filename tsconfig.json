@@ -1,0 +1,10 @@
+{
+  "extends": "@foxglove/tsconfig/base",
+  "compilerOptions": {
+    "importHelpers": false,
+    "lib": ["es2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true
+  }
+}

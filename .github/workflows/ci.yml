@@ -11,5 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - run: corepack enable
+
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 22
+          cache: yarn
+
       - name: Validate extensions.json
-        run: jq . extensions.json >/dev/null
+        run: yarn validate
