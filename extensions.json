@@ -187,5 +187,19 @@
     "sha256sum": "90af3124c1a68ab5b9b5d3faa480d1c77c0dd902ac1c7a71dea3f445c2df7939",
     "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.1.0.foxe",
     "keywords": ["ros", "nvidia", "nvblox", "isaac"]
+  },
+  {
+    "id": "danielalp.foxglove-vex-2d-panel",
+    "name": "2D VEX Panel",
+    "description": "Visualize 2D paths on a VEX field.",
+    "publisher": "Daniel Alp",
+    "homepage": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel",
+    "readme": "https://raw.githubusercontent.com/Daniel-Alp/foxglove-vex-2d-panel/master/README.md",
+    "changelog": "https://raw.githubusercontent.com/Daniel-Alp/foxglove-vex-2d-panel/master/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "249be37fe7c42a2bf647b344f639b755956b5f656e232770b13353dea75c7696",
+    "foxe": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel/releases/download/v1.0.0/danielalp.foxglove-vex-2d-panel-1.0.0.foxe",
+    "keywords": ["VEX", "odometry"]
   }
 ]
