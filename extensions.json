@@ -201,5 +201,19 @@
     "sha256sum": "249be37fe7c42a2bf647b344f639b755956b5f656e232770b13353dea75c7696",
     "foxe": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel/releases/download/v1.0.0/danielalp.foxglove-vex-2d-panel-1.0.0.foxe",
     "keywords": ["VEX", "odometry"]
+  },
+  {
+    "id": "rogyken.joint-state-publisher",
+    "name": "Joint State Publisher",
+    "description": "Publishing joint state messages that can be interacted with via the slider UI.",
+    "publisher": "rogy-ken",
+    "homepage": "https://github.com/rogy-ken/foxglove-joint-state-publisher",
+    "readme": "https://github.com/rogy-ken/foxglove-joint-state-publisher/blob/main/README.md",
+    "changelog": "https://github.com/rogy-ken/foxglove-joint-state-publisher/blob/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.1.0",
+    "sha256sum": "3c1ba8195e31809939c89ce73320cdc47147f012f41b050029f6aae4dabc7c93",
+    "foxe": "https://github.com/rogy-ken/foxglove-joint-state-publisher/releases/download/v0.1.0/rogyken.joint-state-publisher-0.1.0.foxe",
+    "keywords": ["ros", "joint", "jointstate", "robot", "arm"]
   }
 ]

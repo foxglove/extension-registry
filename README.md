@@ -26,3 +26,4 @@ Foxglove under the extension settings.
 - [Plotly](https://github.com/MetaverseIndustries/plotly-panel) - Render plotly.Plot JSON messages
 - [Webcam](https://github.com/joshnewans/foxglove-webcam) - Republish webcam data into ROS
 - [2D VEX Panel](https://github.com/Daniel-Alp/foxglove-vex-2d-panel) - Visualize 2D paths on a VEX field in real-time
+- [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
