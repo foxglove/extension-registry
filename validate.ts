@@ -2,7 +2,7 @@ import JSZip from "jszip";
 import registryJson from "./extensions.json";
 import crypto from "node:crypto";
 import path from "node:path";
-import core from "@actions/core";
+import * as core from "@actions/core";
 
 function warning(message: string) {
   core.warning(message, { file: "extensions.json" });
@@ -40,7 +40,7 @@ async function validateMarkdownUrl(url: string, id: string, name: string) {
 }
 
 async function validateExtension(extension: (typeof registryJson)[number]) {
-  console.log(`Validating ${extension.id}...`);
+  console.log(`\nValidating ${extension.id}...`);
   const foxeResponse = await fetch(extension.foxe);
   if (foxeResponse.status !== 200) {
     error(
