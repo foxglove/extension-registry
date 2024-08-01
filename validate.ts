@@ -2,27 +2,33 @@ import JSZip from "jszip";
 import registryJson from "./extensions.json";
 import crypto from "node:crypto";
 import path from "node:path";
+import { warning, error } from "@actions/core";
 
 /**
  * Check that a URL points at a plain-text file (Markdown). This helps avoid accidentally pointing
  * at an HTML page (like a non-raw github.com URL)
  */
-async function validateMarkdownUrl(url: string, name: string) {
+async function validateMarkdownUrl(url: string, id: string, name: string) {
   if (url.startsWith("https://github.com/")) {
-    throw new Error(
-      `Invalid ${name} URL: use raw.githubusercontent.com instead of github.com`
+    error(
+      `${id}: Invalid ${name} URL: use raw.githubusercontent.com instead of github.com`,
+      { file: "extensions.json" }
     );
+    return;
   }
   const response = await fetch(url);
   const contentType = response.headers.get("content-type");
   if (!response.ok) {
-    throw new Error(
-      `Invalid ${name} URL: expected status 200, got ${response.status} ${response.statusText}`
+    error(
+      `${id}: Invalid ${name} URL: expected status 200, got ${response.status} ${response.statusText}`,
+      { file: "extensions.json" }
     );
+    return;
   }
   if (contentType == undefined || !contentType.startsWith("text/plain")) {
-    throw new Error(
-      `Invalid ${name} URL: expected content-type text/plain, got: ${contentType}`
+    error(
+      `${id}: Invalid ${name} URL: expected content-type text/plain, got: ${contentType}`,
+      { file: "extensions.json" }
     );
   }
 }
@@ -31,9 +37,11 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
   console.log(`Validating ${extension.id}...`);
   const foxeResponse = await fetch(extension.foxe);
   if (foxeResponse.status !== 200) {
-    throw new Error(
-      `Extension ${extension.id} has invalid foxe URL. Expected 200 response, got ${foxeResponse.status}`
+    error(
+      `Extension ${extension.id} has invalid foxe URL. Expected 200 response, got ${foxeResponse.status}`,
+      { file: "extensions.json" }
     );
+    return;
   }
 
   const foxeContent = await foxeResponse.arrayBuffer();
@@ -42,9 +50,11 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
     .update(new DataView(foxeContent))
     .digest("hex");
   if (sha256sum !== extension.sha256sum) {
-    throw new Error(
-      `Digest mismatch for ${extension.foxe}, expected: ${extension.sha256sum}, actual: ${sha256sum}`
+    error(
+      `${extension.id}:Digest mismatch for ${extension.foxe}, expected: ${extension.sha256sum}, actual: ${sha256sum}`,
+      { file: "extensions.json" }
     );
+    return;
   }
 
   const zip = await JSZip.loadAsync(foxeContent, { checkCRC32: true });
@@ -55,25 +65,37 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
     }
   }
   if (uncompressedFiles.length > 0) {
-    console.log(
-      `  - Warning: the following files are stored without compression: ${uncompressedFiles.join(
+    warning(
+      `${
+        extension.id
+      }: the following files are stored without compression: ${uncompressedFiles.join(
         ", "
-      )}`
+      )}`,
+      { file: "extensions.json" }
     );
   }
 
   const packageJsonContent = await zip.file("package.json")?.async("string");
   if (!packageJsonContent) {
-    throw new Error("Missing package.json in extension");
+    error(`${extension.id}: Missing package.json in extension`, {
+      file: "extensions.json",
+    });
+    return;
   }
   const packageJson = JSON.parse(packageJsonContent);
   if (packageJson.name == undefined || packageJson.name.length === 0) {
-    throw new Error("Invalid extension: missing name");
+    error(`${extension.id}: Invalid extension: missing name`, {
+      file: "extensions.json",
+    });
+    return;
   }
 
   const mainPath = packageJson.main;
   if (typeof mainPath !== "string") {
-    throw new Error("Extension package.json main is missing");
+    error(`${extension.id}: Extension package.json main is missing`, {
+      file: "extensions.json",
+    });
+    return;
   }
 
   // Normalize the package.json:main field so we can lookup the file in the zip archive.
@@ -82,11 +104,15 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
   const normalized = path.normalize(mainPath);
   const srcText = await zip.file(normalized)?.async("string");
   if (srcText == undefined) {
-    throw new Error("Extension is corrupted: unable to extract main JS file");
+    error(
+      `${extension.id}: Extension ${extension.foxe} is corrupted: unable to extract main JS file`,
+      { file: "extensions.json" }
+    );
+    return;
   }
 
-  await validateMarkdownUrl(extension.readme, "readme");
-  await validateMarkdownUrl(extension.changelog, "changelog");
+  await validateMarkdownUrl(extension.readme, extension.id, "readme");
+  await validateMarkdownUrl(extension.changelog, extension.id, "changelog");
 }
 
 async function main() {
