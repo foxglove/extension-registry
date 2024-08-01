@@ -14,6 +14,28 @@ function error(message: string) {
 }
 
 /**
+ * SHA sums of extensions that are known to be uncompressed. For these we will only log a warning.
+ * For other (newer) ones it will be an error if compression is not used.
+ */
+const knownUncompressedExtensionsSHAs = [
+  "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
+  "ac07f5f84b96ad1139b4d66b685b864cf5713081e198e63fccef7a0546dd1ab2",
+  "1193589eb2779a1224328defca4e2ca378ef786474be1842ac43b674b9535d82",
+  "f03d7a517ba6f7d57564eec965358055c87285a8a504d5488af969767a76c4ab",
+  "71ae6c6ffa4b86aa427d14fcc86af437fdca4b5e10cd714e70f95e1af324ceaf",
+  "87e0a4fe397974fb2e3771f370009ccdbe195498d4792c04bc08b2e2482bda71",
+  "6afa4437c45cb5b60a99405e40b0c51b4edfcc0f9a640532cc218962da1ee2b8",
+  "b5c02cb834005affcf1873a6a481281a73428d04062bbf763863c8fb7e64fc95",
+  "12863df314ec682e23ebb74598e3e3e89e610fa960f3461b5e91a6896ed8228f",
+  "bfbb33b91f337a25de79449f9b529bc94bfaf908187f39cef24d70d4e1083434",
+  "5b2dbe3280a7833c8d827e4f3b8acfa4df9cf4cd16a5db037885a6cfcdd42041",
+  "d7b831c665111aeab5779bea6f5b8f7d5c3afa6d2200d1f79ba2bafbb799497c",
+  "90af3124c1a68ab5b9b5d3faa480d1c77c0dd902ac1c7a71dea3f445c2df7939",
+  "249be37fe7c42a2bf647b344f639b755956b5f656e232770b13353dea75c7696",
+  "3c1ba8195e31809939c89ce73320cdc47147f012f41b050029f6aae4dabc7c93",
+];
+
+/**
  * Check that a URL points at a plain-text file (Markdown). This helps avoid accidentally pointing
  * at an HTML page (like a non-raw github.com URL)
  */
@@ -63,35 +85,39 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
 
   const zip = await JSZip.loadAsync(foxeContent, { checkCRC32: true });
   let uncompressedFiles = [];
+  let anyFilesAreCompressed = false;
   for (const [path, zipObj] of Object.entries(zip.files)) {
-    if (!zipObj.dir && zipObj.options.compression !== "DEFLATE") {
+    if (zipObj.dir) continue;
+    if (zipObj.options.compression === "DEFLATE") {
+      anyFilesAreCompressed = true;
+    } else {
       uncompressedFiles.push(path);
     }
   }
   if (uncompressedFiles.length > 0) {
-    warning(
-      `${
-        extension.id
-      }: the following files are stored without compression: ${uncompressedFiles.join(
-        ", "
-      )}`
+    (knownUncompressedExtensionsSHAs.includes(extension.sha256sum)
+      ? warning
+      : error)(
+      `${extension.id}: the following files are stored without compression: ${
+        anyFilesAreCompressed ? uncompressedFiles.join(", ") : "(all files)"
+      }`
     );
   }
 
   const packageJsonContent = await zip.file("package.json")?.async("string");
   if (!packageJsonContent) {
-    error(`${extension.id}: Missing package.json in extension`);
+    error(`${extension.id}: Missing package.json`);
     return;
   }
   const packageJson = JSON.parse(packageJsonContent);
   if (packageJson.name == undefined || packageJson.name.length === 0) {
-    error(`${extension.id}: Invalid extension: missing name`);
+    error(`${extension.id}: Invalid package.json: missing name`);
     return;
   }
 
   const mainPath = packageJson.main;
   if (typeof mainPath !== "string") {
-    error(`${extension.id}: Extension package.json main is missing`);
+    error(`${extension.id}: Invalid package.json: missing "main" field`);
     return;
   }
 
@@ -112,6 +138,15 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
 }
 
 async function main() {
+  const unusedSHAs = knownUncompressedExtensionsSHAs.filter(
+    (sha) => !registryJson.find((ext) => ext.sha256sum === sha)
+  );
+  for (const sha of unusedSHAs) {
+    error(
+      `The following SHA should be removed from knownUncompressedExtensionsSHAs: ${sha}`
+    );
+  }
+
   for (const extension of registryJson) {
     await validateExtension(extension);
   }
