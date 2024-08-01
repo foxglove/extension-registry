@@ -6,9 +6,9 @@
   },
   "devDependencies": {
     "@foxglove/tsconfig": "2.0.0",
-    "@types/node": "20.14.9",
+    "@types/node": "22.0.2",
     "jszip": "3.10.1",
     "ts-node": "10.9.2",
-    "typescript": "5.5.2"
+    "typescript": "5.5.4"
   }
 }
