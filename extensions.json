@@ -89,7 +89,7 @@
     "description": "Display object orientation in 2D space",
     "publisher": "IVI",
     "homepage": "https://github.com/CourchesneA/foxglove-orientation-panel",
-    "readme": "https://raw.githubusercontent.com/CourchesneA/foxglove-orientation-panel/main/README.md",
+    "readme": "https://github.com/CourchesneA/foxglove-orientation-panel/blob/main/README.md",
     "changelog": "https://raw.githubusercontent.com/CourchesneA/foxglove-orientation-panel/main/CHANGELOG.md",
     "license": "MIT",
     "version": "0.0.1",
