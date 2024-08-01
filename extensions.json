@@ -11,7 +11,7 @@
     "version": "1.0.0",
     "sha256sum": "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
     "foxe": "https://github.com/foxglove/blank-panel-extension/releases/download/1.0.0/foxglove.blank-panel-extension-1.0.0.foxe",
-    "keywords": ["blank","panel","empty","logo","spacer"]
+    "keywords": ["blank", "panel", "empty", "logo", "spacer"]
   },
   {
     "id": "uwprl.studio-extension-mushr",
@@ -25,7 +25,7 @@
     "version": "1.0.0",
     "sha256sum": "ac07f5f84b96ad1139b4d66b685b864cf5713081e198e63fccef7a0546dd1ab2",
     "foxe": "https://github.com/prl-mushr/foxglove-mushr-extension/releases/download/release_1_0_0/uwprl.MushrTeleopButtons-1.0.0.foxe",
-    "keywords": ["mushr","simulator"]
+    "keywords": ["mushr", "simulator"]
   },
   {
     "id": "sideways.studio-extension-sideways",
@@ -39,7 +39,7 @@
     "version": "0.0.1",
     "sha256sum": "1193589eb2779a1224328defca4e2ca378ef786474be1842ac43b674b9535d82",
     "foxe": "https://github.com/rscova/foxglove-sideways-teleop-extension/releases/download/v0.0.1/sideways.sideways-teleop-extension-0.0.1.foxe",
-    "keywords": ["sideways","teleop"]
+    "keywords": ["sideways", "teleop"]
   },
   {
     "id": "danielclapp.ros2-parameter-extension",
@@ -89,13 +89,13 @@
     "description": "Display object orientation in 2D space",
     "publisher": "IVI",
     "homepage": "https://github.com/CourchesneA/foxglove-orientation-panel",
-    "readme": "https://github.com/CourchesneA/foxglove-orientation-panel/blob/main/README.md",
-    "changelog": "https://github.com/CourchesneA/foxglove-orientation-panel/blob/main/CHANGELOG.md",
+    "readme": "https://raw.githubusercontent.com/CourchesneA/foxglove-orientation-panel/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/CourchesneA/foxglove-orientation-panel/main/CHANGELOG.md",
     "license": "MIT",
     "version": "0.0.1",
     "sha256sum": "6afa4437c45cb5b60a99405e40b0c51b4edfcc0f9a640532cc218962da1ee2b8",
     "foxe": "https://github.com/CourchesneA/foxglove-orientation-panel/releases/download/v0.0.1/ivi.orientation-extension-0.0.1.foxe",
-    "keywords": ["orientation","2d","ros","ros2"]
+    "keywords": ["orientation", "2d", "ros", "ros2"]
   },
   {
     "id": "metaverseindustriesllc.plotly",
@@ -123,7 +123,7 @@
     "version": "1.0.0",
     "sha256sum": "12863df314ec682e23ebb74598e3e3e89e610fa960f3461b5e91a6896ed8228f",
     "foxe": "https://github.com/Lynxdrone/foxglove-battery-extension/releases/download/1.0.0/lynxdrone.battery-display-1.0.0.foxe",
-    "keywords": ["ros","battery","indicator","robot"]
+    "keywords": ["ros", "battery", "indicator", "robot"]
   },
   {
     "id": "joshnewans.joy-panel",
@@ -137,7 +137,14 @@
     "version": "0.0.3",
     "sha256sum": "bfbb33b91f337a25de79449f9b529bc94bfaf908187f39cef24d70d4e1083434",
     "foxe": "https://github.com/joshnewans/foxglove-joystick/releases/download/0.0.3/joshnewans.joy-panel-0.0.3.foxe",
-    "keywords": ["ros","joystick","gamepad","control","interactive","touch"]
+    "keywords": [
+      "ros",
+      "joystick",
+      "gamepad",
+      "control",
+      "interactive",
+      "touch"
+    ]
   },
   {
     "id": "joshnewans.webcam-panel",
@@ -151,7 +158,7 @@
     "version": "0.0.2",
     "sha256sum": "5b2dbe3280a7833c8d827e4f3b8acfa4df9cf4cd16a5db037885a6cfcdd42041",
     "foxe": "https://github.com/joshnewans/foxglove-webcam/releases/download/0.0.2/joshnewans.webcam-panel-0.0.2.foxe",
-    "keywords": ["ros","webcam"]
+    "keywords": ["ros", "webcam"]
   },
   {
     "id": "kminoda.autoware-msgs",
@@ -159,8 +166,8 @@
     "description": "Autoware messages",
     "publisher": "Koji Minoda",
     "homepage": "https://github.com/kminoda/AutowareFoxgloveConverter",
-    "readme": "https://github.com/kminoda/AutowareFoxgloveConverter/blob/main/README.md",
-    "changelog": "https://github.com/kminoda/AutowareFoxgloveConverter/blob/main/CHANGELOG.md",
+    "readme": "https://raw.githubusercontent.com/kminoda/AutowareFoxgloveConverter/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/kminoda/AutowareFoxgloveConverter/main/CHANGELOG.md",
     "license": "Apache 2.0",
     "version": "0.0.1",
     "sha256sum": "d7b831c665111aeab5779bea6f5b8f7d5c3afa6d2200d1f79ba2bafbb799497c",
@@ -180,5 +187,33 @@
     "sha256sum": "90af3124c1a68ab5b9b5d3faa480d1c77c0dd902ac1c7a71dea3f445c2df7939",
     "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.1.0.foxe",
     "keywords": ["ros", "nvidia", "nvblox", "isaac"]
+  },
+  {
+    "id": "danielalp.foxglove-vex-2d-panel",
+    "name": "2D VEX Panel",
+    "description": "Visualize 2D paths on a VEX field.",
+    "publisher": "Daniel Alp",
+    "homepage": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel",
+    "readme": "https://raw.githubusercontent.com/Daniel-Alp/foxglove-vex-2d-panel/master/README.md",
+    "changelog": "https://raw.githubusercontent.com/Daniel-Alp/foxglove-vex-2d-panel/master/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "249be37fe7c42a2bf647b344f639b755956b5f656e232770b13353dea75c7696",
+    "foxe": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel/releases/download/v1.0.0/danielalp.foxglove-vex-2d-panel-1.0.0.foxe",
+    "keywords": ["VEX", "odometry"]
+  },
+  {
+    "id": "rogyken.joint-state-publisher",
+    "name": "Joint State Publisher",
+    "description": "Publishing joint state messages that can be interacted with via the slider UI.",
+    "publisher": "rogy-ken",
+    "homepage": "https://github.com/rogy-ken/foxglove-joint-state-publisher",
+    "readme": "https://raw.githubusercontent.com/rogy-ken/foxglove-joint-state-publisher/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/rogy-ken/foxglove-joint-state-publisher/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.1.0",
+    "sha256sum": "3c1ba8195e31809939c89ce73320cdc47147f012f41b050029f6aae4dabc7c93",
+    "foxe": "https://github.com/rogy-ken/foxglove-joint-state-publisher/releases/download/v0.1.0/rogyken.joint-state-publisher-0.1.0.foxe",
+    "keywords": ["ros", "joint", "jointstate", "robot", "arm"]
   }
 ]
