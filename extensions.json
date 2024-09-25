@@ -215,5 +215,19 @@
     "sha256sum": "3c1ba8195e31809939c89ce73320cdc47147f012f41b050029f6aae4dabc7c93",
     "foxe": "https://github.com/rogy-ken/foxglove-joint-state-publisher/releases/download/v0.1.0/rogyken.joint-state-publisher-0.1.0.foxe",
     "keywords": ["ros", "joint", "jointstate", "robot", "arm"]
+  },
+  {
+    "id": "usedhondacivic.foxglove-teleop-twist-keyboard",
+    "name": "Teleop Twist Keyboard",
+    "description": "A foxglove version of the ROS teleop_twist_keyboard node, used to publish Twist messages based on keyboard control.",
+    "publisher": "usedhondacivic",
+    "homepage": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard",
+    "readme": "https://raw.githubusercontent.com/usedhondacivic/foxglove-teleop-twist-keyboard/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/usedhondacivic/foxglove-teleop-twist-keyboard/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v0.0.1",
+    "sha256sum": "700d76c2a03aba8347795f28e8fcb964e5d44ed9635d09db25f149d344505017",
+    "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.1/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.1.foxe",
+    "keywords": ["ros", "teleop"]
   }
 ]
