@@ -225,9 +225,9 @@
     "readme": "https://raw.githubusercontent.com/usedhondacivic/foxglove-teleop-twist-keyboard/refs/heads/main/README.md",
     "changelog": "https://raw.githubusercontent.com/usedhondacivic/foxglove-teleop-twist-keyboard/refs/heads/main/CHANGELOG.md",
     "license": "MIT",
-    "version": "v0.0.1",
-    "sha256sum": "700d76c2a03aba8347795f28e8fcb964e5d44ed9635d09db25f149d344505017",
-    "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.1/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.1.foxe",
+    "version": "v0.0.2",
+    "sha256sum": "4e745bc48cbaf39b826b2d21215e30ef4586ebfa61f239ed0bb1575ca7bb4455",
+    "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.2/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.2.foxe",
     "keywords": ["ros", "teleop"]
   }
 ]
