@@ -3,6 +3,7 @@ import registryJson from "./extensions.json";
 import crypto from "node:crypto";
 import path from "node:path";
 import * as core from "@actions/core";
+import semver from "semver";
 
 function warning(message: string) {
   core.warning(message, { file: "extensions.json" });
@@ -14,10 +15,16 @@ function error(message: string) {
 }
 
 /**
- * SHA sums of extensions that are known to be uncompressed. For these we will only log a warning.
+ * We require newly submitted extensions to use at least this version of create-foxglove-extension.
+ *
+ * 1.0.3: fixed a bug where packaged extensions were not compressed
+ */
+const createFoxgloveExtensionMinVersion = "1.0.3";
+/**
+ * SHA sums of extensions that are exempt from the version check. For these we will only log a warning.
  * For other (newer) ones it will be an error if compression is not used.
  */
-const knownUncompressedExtensionsSHAs = [
+const exemptExtensionsSHAs = [
   "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
   "ac07f5f84b96ad1139b4d66b685b864cf5713081e198e63fccef7a0546dd1ab2",
   "1193589eb2779a1224328defca4e2ca378ef786474be1842ac43b674b9535d82",
@@ -84,25 +91,6 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
   }
 
   const zip = await JSZip.loadAsync(foxeContent, { checkCRC32: true });
-  let uncompressedFiles = [];
-  let anyFilesAreCompressed = false;
-  for (const [path, zipObj] of Object.entries(zip.files)) {
-    if (zipObj.dir) continue;
-    if (zipObj.options.compression === "DEFLATE") {
-      anyFilesAreCompressed = true;
-    } else {
-      uncompressedFiles.push(path);
-    }
-  }
-  if (uncompressedFiles.length > 0) {
-    (knownUncompressedExtensionsSHAs.includes(extension.sha256sum)
-      ? warning
-      : error)(
-      `${extension.id}: the following files are stored without compression: ${
-        anyFilesAreCompressed ? uncompressedFiles.join(", ") : "(all files)"
-      }`
-    );
-  }
 
   const packageJsonContent = await zip.file("package.json")?.async("string");
   if (!packageJsonContent) {
@@ -113,6 +101,36 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
   if (packageJson.name == undefined || packageJson.name.length === 0) {
     error(`${extension.id}: Invalid package.json: missing name`);
     return;
+  }
+
+  const createFoxgloveExtensionRange =
+    packageJson.devDependencies?.["create-foxglove-extension"] ??
+    packageJson.devDependencies?.["@foxglove/fox"];
+  if (!createFoxgloveExtensionRange) {
+    error(
+      `${extension.id}: Invalid package.json: expected create-foxglove-extension in devDependencies`
+    );
+    return;
+  }
+  const actualMinVersion = semver.minVersion(createFoxgloveExtensionRange);
+  if (!actualMinVersion) {
+    error(
+      `${extension.id}: Invalid package.json: unable to determine min version of create-foxglove-extension`
+    );
+    return;
+  }
+  if (!semver.gte(actualMinVersion, createFoxgloveExtensionMinVersion)) {
+    const message = `${extension.id}: must use create-foxglove-extension ${createFoxgloveExtensionMinVersion}, found ${createFoxgloveExtensionRange}`;
+    if (exemptExtensionsSHAs.includes(extension.sha256sum)) {
+      warning(message);
+    } else {
+      error(message);
+      return;
+    }
+  } else if (exemptExtensionsSHAs.includes(extension.sha256sum)) {
+    error(
+      `The following SHA should be removed from exemptExtensionsSHAs: ${extension.sha256sum}`
+    );
   }
 
   const mainPath = packageJson.main;
@@ -138,12 +156,12 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
 }
 
 async function main() {
-  const unusedSHAs = knownUncompressedExtensionsSHAs.filter(
+  const unusedSHAs = exemptExtensionsSHAs.filter(
     (sha) => !registryJson.find((ext) => ext.sha256sum === sha)
   );
   for (const sha of unusedSHAs) {
     error(
-      `The following SHA should be removed from knownUncompressedExtensionsSHAs: ${sha}`
+      `The following SHA should be removed from exemptExtensionSHAs: ${sha}`
     );
   }
 
