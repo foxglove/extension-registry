@@ -177,15 +177,15 @@
   {
     "id": "nvidia.nvblox_foxglove",
     "name": "Isaac ROS Nvblox Foxglove",
-    "description": "Message converter to visualize nvblox meshes in foxglove.",
+    "description": "Message converter to visualize nvblox data types in foxglove.",
     "publisher": "NVIDIA",
     "homepage": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox",
-    "readme": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox/main/nvblox_foxglove/README.md",
-    "changelog": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_nvblox/main/nvblox_foxglove/CHANGELOG.md",
+    "readme": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/.github/refs/heads/main/resources/foxglove_plugins/README.md",
+    "changelog": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/.github/refs/heads/main/resources/foxglove_plugins/CHANGELOG.md",
     "license": "Apache 2.0",
-    "version": "2.1.0",
-    "sha256sum": "90af3124c1a68ab5b9b5d3faa480d1c77c0dd902ac1c7a71dea3f445c2df7939",
-    "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.1.0.foxe",
+    "version": "2.2.0",
+    "sha256sum": "e789390b13aa60a367695f09dcc70d86cfd912e20deef2352599a65c094839d5",
+    "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.2.0.foxe",
     "keywords": ["ros", "nvidia", "nvblox", "isaac"]
   },
   {
