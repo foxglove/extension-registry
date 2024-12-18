@@ -229,5 +229,19 @@
     "sha256sum": "4e745bc48cbaf39b826b2d21215e30ef4586ebfa61f239ed0bb1575ca7bb4455",
     "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.2/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.2.foxe",
     "keywords": ["ros", "teleop"]
+  },
+    {
+    "id": "peekrobotics.orientation-panel-3d",
+    "name": "Orientation Panel 3D",
+    "description": "A simple 3D visualization of orientation from topics containing quaternions",
+    "publisher": "peek-robotics",
+    "homepage": "https://github.com/peek-robotics/foxglove-orientation-panel-3d",
+    "readme": "https://raw.githubusercontent.com/peek-robotics/foxglove-orientation-panel-3d/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/peek-robotics/foxglove-orientation-panel-3d/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v0.0.5",
+    "sha256sum": "5970656242d2a41524f777ca2ab114f64838e8cf5c9644bb355710f1ba35613e",
+    "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-3d/releases/download/v0.0.5/peekrobotics.orientation-panel-3d-0.0.5.foxe",
+    "keywords": ["foxglove", "ros", "orientation", "quaternion"]
   }
 ]
