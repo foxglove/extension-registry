@@ -29,3 +29,4 @@ Foxglove under the extension settings.
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
 - [Teleop Twist Keyboard](https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard) - A foxglove version of the ROS teleop_twist_keyboard node, used to publish Twist messages based on keyboard control.
 - [Orientation Panel 3D](https://github.com/peek-robotics/foxglove-orientation-panel-3d) - A simple 3D visualization of orientation from topics containing quaternions
+- [Polygon ROS](https://github.com/fireflyautomatix/foxglove-polygon-ros) - Visualize complex polygons
