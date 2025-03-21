@@ -230,7 +230,7 @@
     "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.2/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.2.foxe",
     "keywords": ["ros", "teleop"]
   },
-    {
+  {
     "id": "peekrobotics.orientation-panel-3d",
     "name": "Orientation Panel 3D",
     "description": "A simple 3D visualization of orientation from topics containing quaternions",
@@ -256,10 +256,20 @@
     "version": "v1.0.0",
     "sha256sum": "910fabdee7ab040d60e379c85fbe5bc17e38b13374a7ed858cf1635028f6fe28",
     "foxe": "https://github.com/Ry0/foxglove-string-panel/releases/download/v1.0.0/kabu.string-panel-1.0.0.foxe",
-    "keywords": [
-      "foxglove",
-      "ros",
-      "string"
-    ]
+    "keywords": ["foxglove", "ros", "string"]
+  },
+  {
+    "id": "fireflyautomatix.polygon-ros",
+    "name": "Polygon ROS",
+    "description": "Visualize complex polygons",
+    "publisher": "Firefly Automatix",
+    "homepage": "https://github.com/fireflyautomatix/foxglove-polygon-ros",
+    "readme": "https://raw.githubusercontent.com/fireflyautomatix/foxglove-polygon-ros/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/fireflyautomatix/foxglove-polygon-ros/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "494d92c445cffecfd399f7b5425af3addaaa523a8bf3364a0f8d2ca79016ed42",
+    "foxe": "https://github.com/fireflyautomatix/foxglove-polygon-ros/releases/download/1.0.0/fireflyautomatix.polygon-ros-1.0.0.foxe",
+    "keywords": ["ros", "polygon", "2d"]
   }
 ]
