@@ -230,7 +230,7 @@
     "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.2/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.2.foxe",
     "keywords": ["ros", "teleop"]
   },
-    {
+  {
     "id": "peekrobotics.orientation-panel-3d",
     "name": "Orientation Panel 3D",
     "description": "A simple 3D visualization of orientation from topics containing quaternions",
@@ -243,6 +243,20 @@
     "sha256sum": "5970656242d2a41524f777ca2ab114f64838e8cf5c9644bb355710f1ba35613e",
     "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-3d/releases/download/v0.0.5/peekrobotics.orientation-panel-3d-0.0.5.foxe",
     "keywords": ["foxglove", "ros", "orientation", "quaternion"]
+  },
+  {
+    "id": "kabu.string-panel",
+    "name": "String Panel",
+    "description": "This extension displays the string data of std_msg/String or std_msg/msg/String on the panel.",
+    "publisher": "Ryo Kabutan",
+    "homepage": "https://github.com/Ry0/foxglove-string-panel",
+    "readme": "https://raw.githubusercontent.com/Ry0/foxglove-string-panel/refs/heads/master/README.md",
+    "changelog": "https://raw.githubusercontent.com/Ry0/foxglove-string-panel/refs/heads/master/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "sha256sum": "910fabdee7ab040d60e379c85fbe5bc17e38b13374a7ed858cf1635028f6fe28",
+    "foxe": "https://github.com/Ry0/foxglove-string-panel/releases/download/v1.0.0/kabu.string-panel-1.0.0.foxe",
+    "keywords": ["foxglove", "ros", "string"]
   },
   {
     "id": "fireflyautomatix.polygon-ros",
