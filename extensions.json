@@ -285,5 +285,5 @@
     "sha256sum": "5970656242d2a41524f777ca2ab114f64838e8cf5c9644bb355710f1ba35613e",
     "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.5/peekrobotics.orientation-panel-2d-0.0.5.foxe",
     "keywords": ["foxglove", "ros", "orientation", "quaternion", "roll", "pitch", "yaw"]
-  },
+  }
 ]
