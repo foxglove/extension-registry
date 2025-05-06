@@ -282,8 +282,8 @@
     "changelog": "https://raw.githubusercontent.com/peek-robotics/foxglove-orientation-panel-2d/refs/heads/main/CHANGELOG.md",
     "license": "MIT",
     "version": "v0.0.5",
-    "sha256sum": "5970656242d2a41524f777ca2ab114f64838e8cf5c9644bb355710f1ba35613e",
-    "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.5/peekrobotics.orientation-panel-2d-0.0.5.foxe",
+    "sha256sum": "79a3b24786a22f3e0cffbb8a92fb76aa8057e056270f230a8211c48387a2d0c5",
+    "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.6/peekrobotics.orientation-panel-2d-0.0.6.foxe",
     "keywords": ["foxglove", "ros", "orientation", "quaternion", "roll", "pitch", "yaw"]
   }
 ]
