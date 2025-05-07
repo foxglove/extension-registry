@@ -271,5 +271,19 @@
     "sha256sum": "494d92c445cffecfd399f7b5425af3addaaa523a8bf3364a0f8d2ca79016ed42",
     "foxe": "https://github.com/fireflyautomatix/foxglove-polygon-ros/releases/download/1.0.0/fireflyautomatix.polygon-ros-1.0.0.foxe",
     "keywords": ["ros", "polygon", "2d"]
+  },
+  {
+    "id": "peekrobotics.orientation-panel-2d",
+    "name": "Orientation Panel 2D",
+    "description": "A 2D visualization of orientation data from ROS messages with toggleable roll, pitch, and yaw displays",
+    "publisher": "peek-robotics",
+    "homepage": "https://github.com/peek-robotics/foxglove-orientation-panel-2d",
+    "readme": "https://raw.githubusercontent.com/peek-robotics/foxglove-orientation-panel-2d/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/peek-robotics/foxglove-orientation-panel-2d/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v0.0.5",
+    "sha256sum": "6f842196c4b0fb62c7b5350dbda05b7253d9a9bcb2779c218ef8bb8e047c63db",
+    "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.6/peekrobotics.orientation-panel-2d-0.0.6.foxe",
+    "keywords": ["foxglove", "ros", "orientation", "quaternion", "roll", "pitch", "yaw"]
   }
 ]

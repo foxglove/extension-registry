@@ -31,3 +31,4 @@ Foxglove under the extension settings.
 - [Orientation Panel 3D](https://github.com/peek-robotics/foxglove-orientation-panel-3d) - A simple 3D visualization of orientation from topics containing quaternions
 - [String Panel](https://github.com/Ry0/foxglove-string-panel) - This extension displays the string data of std_msg/String or std_msg/msg/String on the panel.
 - [Polygon ROS](https://github.com/fireflyautomatix/foxglove-polygon-ros) - Visualize complex polygons
+- [Orientation Panel 2D](https://github.com/peek-robotics/foxglove-orientation-panel-2d) - A 2D visualization of orientation data from ROS messages with toggleable roll, pitch, and yaw displays
