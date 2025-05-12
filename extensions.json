@@ -285,5 +285,19 @@
     "sha256sum": "6f842196c4b0fb62c7b5350dbda05b7253d9a9bcb2779c218ef8bb8e047c63db",
     "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.6/peekrobotics.orientation-panel-2d-0.0.6.foxe",
     "keywords": ["foxglove", "ros", "orientation", "quaternion", "roll", "pitch", "yaw"]
+  },
+  {
+    "id": "kabu.wrench-stamped-panel",
+    "name": "WrenchStamped Panel",
+    "description": "This extension displays the string data of geometry_msgs/WrenchStamped.msg or geometry_msgs/msg/WrenchStamped.msg on the panel.",
+    "publisher": "Ryo Kabutan",
+    "homepage": "https://github.com/Ry0/foxglove-wrench-stamped-panel",
+    "readme": "https://raw.githubusercontent.com/Ry0/foxglove-wrench-stamped-panel/refs/heads/master/README.md",
+    "changelog": "https://raw.githubusercontent.com/Ry0/foxglove-wrench-stamped-panel/refs/heads/master/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "sha256sum": "bd58c28ddcca54467570dc7e646e209f6e4238f94d116eb3288b4bac9940e832",
+    "foxe": "https://github.com/Ry0/foxglove-wrench-stamped-panel/releases/download/v1.0.0/kabu.wrench-stamped-panel-1.0.0.foxe",
+    "keywords": ["foxglove", "ros", "wrench"]
   }
 ]
