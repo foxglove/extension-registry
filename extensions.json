@@ -313,5 +313,19 @@
     "sha256sum": "0373a32186670b0d7603bb0e49476ad89a5aef5eee96df7f86735ad002fa5ca0",
     "foxe": "https://github.com/flypyka/foxglove-extensions/releases/download/v0.0.1/pykainc.LogMessageViewer-0.0.1.foxe",
     "keywords": ["foxglove", "text", "log"]
+  },
+  {
+    "id": "ascento.CloudiniPointCloudConverter",
+    "name": "Cloudini PointCloud Converter",
+    "description": "Converts the Cloudini point cloud schema to the foxglove schema.",
+    "publisher": "Ascento AG",
+    "homepage": "https://github.com/Ascento-AG/foxglove-cloudini-converter",
+    "readme": "https://raw.githubusercontent.com/Ascento-AG/foxglove-cloudini-converter/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/Ascento-AG/foxglove-cloudini-converter/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v0.0.1",
+    "sha256sum": "1234567890", // TODO: add sha256sum
+    "foxe": "https://github.com/Ascento-AG/foxglove-cloudini-converter/releases/download/v0.0.1/ascento.foxglove-cloudini-converter-0.0.1.foxe",
+    "keywords": ["foxglove", "pointcloud", "cloudini", "schema-converter", "compression"]
   }
 ]

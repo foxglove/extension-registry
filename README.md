@@ -34,3 +34,4 @@ Foxglove under the extension settings.
 - [Orientation Panel 2D](https://github.com/peek-robotics/foxglove-orientation-panel-2d) - A 2D visualization of orientation data from ROS messages with toggleable roll, pitch, and yaw displays
 - [WrenchStamped Panel](https://github.com/Ry0/foxglove-wrench-stamped-panel) - This extension displays the string data of geometry_msgs/WrenchStamped.msg or geometry_msgs/msg/WrenchStamped.msg on the panel.
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
+- [Cloudini PointCloud Converter](https://github.com/Ascento-AG/foxglove-cloudini-converter) - Converts the Cloudini point cloud schema to a standard PointCloud2 decompressing the data field.
