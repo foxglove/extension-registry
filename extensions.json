@@ -324,7 +324,7 @@
     "changelog": "https://raw.githubusercontent.com/Ascento-AG/foxglove-cloudini-converter/refs/heads/main/CHANGELOG.md",
     "license": "MIT",
     "version": "v0.0.1",
-    "sha256sum": "1234567890", // TODO: add sha256sum
+    "sha256sum": "1234567890",
     "foxe": "https://github.com/Ascento-AG/foxglove-cloudini-converter/releases/download/v0.0.1/ascento.foxglove-cloudini-converter-0.0.1.foxe",
     "keywords": ["foxglove", "pointcloud", "cloudini", "schema-converter", "compression"]
   }
