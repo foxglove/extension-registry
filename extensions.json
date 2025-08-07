@@ -313,5 +313,23 @@
     "sha256sum": "0373a32186670b0d7603bb0e49476ad89a5aef5eee96df7f86735ad002fa5ca0",
     "foxe": "https://github.com/flypyka/foxglove-extensions/releases/download/v0.0.1/pykainc.LogMessageViewer-0.0.1.foxe",
     "keywords": ["foxglove", "text", "log"]
+  },
+  {
+    "id": "com.matic.MatricDecode",
+    "name": "MatricDecode",
+    "description": "Extremely fast h.264 decoder based on WebAssembly",
+    "publisher": "Matic Robots",
+    "homepage": "https://github.com/MaticianInc/MatricDecode",
+    "readme": "https://raw.githubusercontent.com/MaticianInc/MatricDecode/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/MaticianInc/MatricDecode/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "v0.0.1",
+    "sha256sum": "0373a32186670b0d7603bb0e49476ad89a5aef5eee96df7f86735ad002fa5ca0",
+    "foxe": "https://github.com/MaticianInc/MatricDecode/releases/download/publish/maticrobots.MaticDecode-0.0.1.foxe",
+    "keywords": [
+      "h264",
+      "video",
+      "decoder"
+    ]
   }
 ]
