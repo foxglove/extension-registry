@@ -324,7 +324,7 @@
     "changelog": "https://raw.githubusercontent.com/MaticianInc/MatricDecode/refs/heads/main/CHANGELOG.md",
     "license": "MIT",
     "version": "v0.0.1",
-    "sha256sum": "0373a32186670b0d7603bb0e49476ad89a5aef5eee96df7f86735ad002fa5ca0",
+    "sha256sum": "d513332beb5f82011775726dbcd150c18fff6e6f45e07a7d023f81a1583bf335",
     "foxe": "https://github.com/MaticianInc/MatricDecode/releases/download/publish/maticrobots.MaticDecode-0.0.1.foxe",
     "keywords": [
       "h264",
