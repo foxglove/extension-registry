@@ -35,3 +35,4 @@ Foxglove under the extension settings.
 - [WrenchStamped Panel](https://github.com/Ry0/foxglove-wrench-stamped-panel) - This extension displays the string data of geometry_msgs/WrenchStamped.msg or geometry_msgs/msg/WrenchStamped.msg on the panel.
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
 - [MatricDecode](https://github.com/MaticianInc/MatricDecode) - Extremely fast h.264 decoder based on WebAssembly
+- [Bar Display](https://github.com/laszloturanyi/foxglove-bar-display-extension) - Customizable bar display for scalar values with configurable min/max ranges, colors, orientations, and advanced fill behaviors

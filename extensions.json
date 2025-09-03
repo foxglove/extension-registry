@@ -11,7 +11,13 @@
     "version": "1.0.0",
     "sha256sum": "fa2b11af8ed7c420ca6e541196bca608661c0c1a81cd1f768c565c72a55a63c8",
     "foxe": "https://github.com/foxglove/blank-panel-extension/releases/download/1.0.0/foxglove.blank-panel-extension-1.0.0.foxe",
-    "keywords": ["blank", "panel", "empty", "logo", "spacer"]
+    "keywords": [
+      "blank",
+      "panel",
+      "empty",
+      "logo",
+      "spacer"
+    ]
   },
   {
     "id": "uwprl.studio-extension-mushr",
@@ -25,7 +31,10 @@
     "version": "1.0.0",
     "sha256sum": "ac07f5f84b96ad1139b4d66b685b864cf5713081e198e63fccef7a0546dd1ab2",
     "foxe": "https://github.com/prl-mushr/foxglove-mushr-extension/releases/download/release_1_0_0/uwprl.MushrTeleopButtons-1.0.0.foxe",
-    "keywords": ["mushr", "simulator"]
+    "keywords": [
+      "mushr",
+      "simulator"
+    ]
   },
   {
     "id": "sideways.studio-extension-sideways",
@@ -39,7 +48,10 @@
     "version": "0.0.1",
     "sha256sum": "1193589eb2779a1224328defca4e2ca378ef786474be1842ac43b674b9535d82",
     "foxe": "https://github.com/rscova/foxglove-sideways-teleop-extension/releases/download/v0.0.1/sideways.sideways-teleop-extension-0.0.1.foxe",
-    "keywords": ["sideways", "teleop"]
+    "keywords": [
+      "sideways",
+      "teleop"
+    ]
   },
   {
     "id": "danielclapp.ros2-parameter-extension",
@@ -53,7 +65,11 @@
     "version": "0.0.1",
     "sha256sum": "f03d7a517ba6f7d57564eec965358055c87285a8a504d5488af969767a76c4ab",
     "foxe": "https://github.com/danclapp4/ros2-parameter-extension/releases/download/v0.0.1/danielclapp.ros2-parameter-extension-0.0.1.foxe",
-    "keywords": ["ROS2", "Parameters", "Param"]
+    "keywords": [
+      "ROS2",
+      "Parameters",
+      "Param"
+    ]
   },
   {
     "id": "yulong.studio-extension-virtual-joystick",
@@ -67,7 +83,9 @@
     "version": "0.0.2",
     "sha256sum": "71ae6c6ffa4b86aa427d14fcc86af437fdca4b5e10cd714e70f95e1af324ceaf",
     "foxe": "https://github.com/yulong88888/foxglove-nipple/releases/download/v0.0.2/yulong.virtual-joystick-0.0.2.foxe",
-    "keywords": ["joystick"]
+    "keywords": [
+      "joystick"
+    ]
   },
   {
     "id": "missionrobotics.h264-panel",
@@ -81,7 +99,10 @@
     "version": "0.1.0",
     "sha256sum": "87e0a4fe397974fb2e3771f370009ccdbe195498d4792c04bc08b2e2482bda71",
     "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
-    "keywords": ["video", "h264"]
+    "keywords": [
+      "video",
+      "h264"
+    ]
   },
   {
     "id": "ivi.orientation-extension",
@@ -95,7 +116,12 @@
     "version": "0.0.1",
     "sha256sum": "6afa4437c45cb5b60a99405e40b0c51b4edfcc0f9a640532cc218962da1ee2b8",
     "foxe": "https://github.com/CourchesneA/foxglove-orientation-panel/releases/download/v0.0.1/ivi.orientation-extension-0.0.1.foxe",
-    "keywords": ["orientation", "2d", "ros", "ros2"]
+    "keywords": [
+      "orientation",
+      "2d",
+      "ros",
+      "ros2"
+    ]
   },
   {
     "id": "metaverseindustriesllc.plotly",
@@ -109,7 +135,12 @@
     "version": "1.0.0",
     "sha256sum": "b5c02cb834005affcf1873a6a481281a73428d04062bbf763863c8fb7e64fc95",
     "foxe": "https://github.com/MetaverseIndustries/plotly-panel/releases/download/v1.0.0/metaverseindustriesllc.plotly-1.0.0.foxe",
-    "keywords": ["plotly", "plot", "chart", "2d"]
+    "keywords": [
+      "plotly",
+      "plot",
+      "chart",
+      "2d"
+    ]
   },
   {
     "id": "lynxdrone.battery-display",
@@ -123,7 +154,12 @@
     "version": "1.0.0",
     "sha256sum": "12863df314ec682e23ebb74598e3e3e89e610fa960f3461b5e91a6896ed8228f",
     "foxe": "https://github.com/Lynxdrone/foxglove-battery-extension/releases/download/1.0.0/lynxdrone.battery-display-1.0.0.foxe",
-    "keywords": ["ros", "battery", "indicator", "robot"]
+    "keywords": [
+      "ros",
+      "battery",
+      "indicator",
+      "robot"
+    ]
   },
   {
     "id": "joshnewans.joy-panel",
@@ -158,7 +194,10 @@
     "version": "0.0.2",
     "sha256sum": "5b2dbe3280a7833c8d827e4f3b8acfa4df9cf4cd16a5db037885a6cfcdd42041",
     "foxe": "https://github.com/joshnewans/foxglove-webcam/releases/download/0.0.2/joshnewans.webcam-panel-0.0.2.foxe",
-    "keywords": ["ros", "webcam"]
+    "keywords": [
+      "ros",
+      "webcam"
+    ]
   },
   {
     "id": "kminoda.autoware-msgs",
@@ -172,7 +211,10 @@
     "version": "0.0.1",
     "sha256sum": "d7b831c665111aeab5779bea6f5b8f7d5c3afa6d2200d1f79ba2bafbb799497c",
     "foxe": "https://github.com/kminoda/AutowareFoxgloveConverter/releases/download/v0.0.1/kminoda.AutowareFoxgloveConverter-0.0.1.foxe",
-    "keywords": ["ros", "autoware"]
+    "keywords": [
+      "ros",
+      "autoware"
+    ]
   },
   {
     "id": "nvidia.nvblox_foxglove",
@@ -186,7 +228,12 @@
     "version": "2.2.0",
     "sha256sum": "e789390b13aa60a367695f09dcc70d86cfd912e20deef2352599a65c094839d5",
     "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.2.0.foxe",
-    "keywords": ["ros", "nvidia", "nvblox", "isaac"]
+    "keywords": [
+      "ros",
+      "nvidia",
+      "nvblox",
+      "isaac"
+    ]
   },
   {
     "id": "danielalp.foxglove-vex-2d-panel",
@@ -200,7 +247,10 @@
     "version": "1.0.0",
     "sha256sum": "249be37fe7c42a2bf647b344f639b755956b5f656e232770b13353dea75c7696",
     "foxe": "https://github.com/Daniel-Alp/foxglove-vex-2d-panel/releases/download/v1.0.0/danielalp.foxglove-vex-2d-panel-1.0.0.foxe",
-    "keywords": ["VEX", "odometry"]
+    "keywords": [
+      "VEX",
+      "odometry"
+    ]
   },
   {
     "id": "rogyken.joint-state-publisher",
@@ -214,7 +264,13 @@
     "version": "0.1.0",
     "sha256sum": "3c1ba8195e31809939c89ce73320cdc47147f012f41b050029f6aae4dabc7c93",
     "foxe": "https://github.com/rogy-ken/foxglove-joint-state-publisher/releases/download/v0.1.0/rogyken.joint-state-publisher-0.1.0.foxe",
-    "keywords": ["ros", "joint", "jointstate", "robot", "arm"]
+    "keywords": [
+      "ros",
+      "joint",
+      "jointstate",
+      "robot",
+      "arm"
+    ]
   },
   {
     "id": "usedhondacivic.foxglove-teleop-twist-keyboard",
@@ -228,7 +284,10 @@
     "version": "v0.0.2",
     "sha256sum": "4e745bc48cbaf39b826b2d21215e30ef4586ebfa61f239ed0bb1575ca7bb4455",
     "foxe": "https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard/releases/download/v0.0.2/usedhondacivic.foxglove-teleop-twist-keyboard-v0.0.2.foxe",
-    "keywords": ["ros", "teleop"]
+    "keywords": [
+      "ros",
+      "teleop"
+    ]
   },
   {
     "id": "peekrobotics.orientation-panel-3d",
@@ -242,7 +301,12 @@
     "version": "v0.0.5",
     "sha256sum": "5970656242d2a41524f777ca2ab114f64838e8cf5c9644bb355710f1ba35613e",
     "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-3d/releases/download/v0.0.5/peekrobotics.orientation-panel-3d-0.0.5.foxe",
-    "keywords": ["foxglove", "ros", "orientation", "quaternion"]
+    "keywords": [
+      "foxglove",
+      "ros",
+      "orientation",
+      "quaternion"
+    ]
   },
   {
     "id": "kabu.string-panel",
@@ -256,7 +320,11 @@
     "version": "v1.0.0",
     "sha256sum": "910fabdee7ab040d60e379c85fbe5bc17e38b13374a7ed858cf1635028f6fe28",
     "foxe": "https://github.com/Ry0/foxglove-string-panel/releases/download/v1.0.0/kabu.string-panel-1.0.0.foxe",
-    "keywords": ["foxglove", "ros", "string"]
+    "keywords": [
+      "foxglove",
+      "ros",
+      "string"
+    ]
   },
   {
     "id": "fireflyautomatix.polygon-ros",
@@ -270,7 +338,11 @@
     "version": "1.0.0",
     "sha256sum": "494d92c445cffecfd399f7b5425af3addaaa523a8bf3364a0f8d2ca79016ed42",
     "foxe": "https://github.com/fireflyautomatix/foxglove-polygon-ros/releases/download/1.0.0/fireflyautomatix.polygon-ros-1.0.0.foxe",
-    "keywords": ["ros", "polygon", "2d"]
+    "keywords": [
+      "ros",
+      "polygon",
+      "2d"
+    ]
   },
   {
     "id": "peekrobotics.orientation-panel-2d",
@@ -284,7 +356,15 @@
     "version": "v0.0.5",
     "sha256sum": "6f842196c4b0fb62c7b5350dbda05b7253d9a9bcb2779c218ef8bb8e047c63db",
     "foxe": "https://github.com/peek-robotics/foxglove-orientation-panel-2d/releases/download/v0.0.6/peekrobotics.orientation-panel-2d-0.0.6.foxe",
-    "keywords": ["foxglove", "ros", "orientation", "quaternion", "roll", "pitch", "yaw"]
+    "keywords": [
+      "foxglove",
+      "ros",
+      "orientation",
+      "quaternion",
+      "roll",
+      "pitch",
+      "yaw"
+    ]
   },
   {
     "id": "kabu.wrench-stamped-panel",
@@ -298,7 +378,11 @@
     "version": "v1.0.0",
     "sha256sum": "bd58c28ddcca54467570dc7e646e209f6e4238f94d116eb3288b4bac9940e832",
     "foxe": "https://github.com/Ry0/foxglove-wrench-stamped-panel/releases/download/v1.0.0/kabu.wrench-stamped-panel-1.0.0.foxe",
-    "keywords": ["foxglove", "ros", "wrench"]
+    "keywords": [
+      "foxglove",
+      "ros",
+      "wrench"
+    ]
   },
   {
     "id": "pykainc.LogMessageViewer",
@@ -312,7 +396,11 @@
     "version": "v0.0.1",
     "sha256sum": "0373a32186670b0d7603bb0e49476ad89a5aef5eee96df7f86735ad002fa5ca0",
     "foxe": "https://github.com/flypyka/foxglove-extensions/releases/download/v0.0.1/pykainc.LogMessageViewer-0.0.1.foxe",
-    "keywords": ["foxglove", "text", "log"]
+    "keywords": [
+      "foxglove",
+      "text",
+      "log"
+    ]
   },
   {
     "id": "com.matic.MatricDecode",
@@ -330,6 +418,28 @@
       "h264",
       "video",
       "decoder"
+    ]
+  },
+  {
+    "id": "laszloturanyi.bar-display",
+    "name": "Bar Display",
+    "description": "Customizable bar display for scalar values with configurable min/max ranges, colors, orientations, and advanced fill behaviors",
+    "publisher": "laszloturanyi",
+    "homepage": "https://github.com/laszloturanyi/foxglove-bar-display-extension",
+    "readme": "https://raw.githubusercontent.com/laszloturanyi/foxglove-bar-display-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/laszloturanyi/foxglove-bar-display-extension/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "04b33f47e72dfc7c31fd17bd07c9c41bfd54540141fb8442ab7a0ad9845f3938",
+    "foxe": "https://github.com/laszloturanyi/foxglove-bar-display-extension/releases/download/v1.0.0/laszloturanyi.bar-display-1.0.0.foxe",
+    "keywords": [
+      "bar",
+      "display",
+      "scalar",
+      "visualization",
+      "customizable",
+      "ros",
+      "sensor"
     ]
   }
 ]
