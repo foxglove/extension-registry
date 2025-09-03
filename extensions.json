@@ -430,7 +430,7 @@
     "changelog": "https://raw.githubusercontent.com/laszloturanyi/foxglove-bar-display-extension/main/CHANGELOG.md",
     "license": "MIT",
     "version": "1.0.0",
-    "sha256sum": "44099f6da109f2007ce55a64337c9a1523a87b09e7872c31b03493e185e074f5",
+    "sha256sum": "04b33f47e72dfc7c31fd17bd07c9c41bfd54540141fb8442ab7a0ad9845f3938",
     "foxe": "https://github.com/laszloturanyi/foxglove-bar-display-extension/releases/download/v1.0.0/laszloturanyi.bar-display-1.0.0.foxe",
     "keywords": [
       "bar",
