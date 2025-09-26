@@ -385,6 +385,59 @@
     ]
   },
   {
+    "id": "polymathrobotics.behavior-tree",
+    "name": "Behavior Tree",
+    "description": "Visualization of Behavior Trees",
+    "publisher": "Polymath Robotics",
+    "homepage": "https://github.com/polymathrobotics/foxglove_extensions",
+    "readme": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/behavior-tree/README.md",
+    "changelog": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/behavior-tree/CHANGELOG.md",
+    "license": "UNLICENSED",
+    "version": "0.1.1",
+    "sha256sum": "2a84b859d7e6024869faacec52d232534c8476e2c1b52c8e87aca2cc557a59ec",
+    "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.0.0/polymathrobotics.behavior-tree-0.1.1.foxe",
+    "keywords": [
+      "behavior-trees",
+      "ros2"
+    ]
+  },
+  {
+    "id": "polymathrobotics.markdown",
+    "name": "Markdown",
+    "description": "Basic markdown renderer extension",
+    "publisher": "Polymath Robotics",
+    "homepage": "https://github.com/polymathrobotics/foxglove_extensions",
+    "readme": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/markdown/README.md",
+    "changelog": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/markdown/CHANGELOG.md",
+    "license": "Apache-2.0",
+    "version": "0.1.0",
+    "sha256sum": "b1dec3773164bc0ed851efbfc4ea3ca22fef0640f9a7ccb9987e63047a340e0d",
+    "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.0.0/polymathrobotics.markdown-0.1.0.foxe",
+    "keywords": [
+      "markdown",
+      "documentation",
+      "text"
+    ]
+  },
+  {
+    "id": "polymathrobotics.ros2-graph",
+    "name": "ROS2 Graph",
+    "description": "Visualization and information on nodes, topics and other ROS2 Graph data. Requires running Graph Monitor (https://github.com/ros-tooling/graph-monitor)",
+    "publisher": "Polymath Robotics",
+    "homepage": "https://github.com/polymathrobotics/foxglove_extensions",
+    "readme": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/ros2-graph/README.md",
+    "changelog": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/ros2-graph/CHANGELOG.md",
+    "license": "Apache-2.0",
+    "version": "0.0.3",
+    "sha256sum": "4ea350105ec00ed381fa9deaf3bf9a1e7d4281a558bfd560d647d5b81d7aeb8c",
+    "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.0.0/polymathrobotics.ros2-graph-0.0.3.foxe",
+    "keywords": [
+      "ros2",
+      "graph",
+      "nodes"
+    ]
+  },
+  {
     "id": "pykainc.LogMessageViewer",
     "name": "Log Message Viewer Panel",
     "description": "Displays any foxglove.Log messages received during the entire displayed timeline. Allows filtering based on severity and contents. Clicking a message jumps the playhead to that timestamp.",
