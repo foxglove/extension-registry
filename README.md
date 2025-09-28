@@ -36,3 +36,6 @@ Foxglove under the extension settings.
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
 - [MatricDecode](https://github.com/MaticianInc/MatricDecode) - Extremely fast h.264 decoder based on WebAssembly
 - [Bar Display](https://github.com/laszloturanyi/foxglove-bar-display-extension) - Customizable bar display for scalar values with configurable min/max ranges, colors, orientations, and advanced fill behaviors
+- [Behavior Tree](https://github.com/polymathrobotics/foxglove_extensions/tree/main/behavior-tree) - Visualization and information on Behavior Trees for robotics applications
+- [Markdown](https://github.com/polymathrobotics/foxglove_extensions/tree/main/markdown) - Basic markdown renderer extension for documentation and notes
+- [ROS2 Graph](https://github.com/polymathrobotics/foxglove_extensions/tree/main/ros2-graph) - Visualization and information on nodes, topics and other ROS2 Graph data (requires running [Graph Monitor](https://github.com/ros-tooling/graph-monitor))
