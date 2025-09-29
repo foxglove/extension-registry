@@ -23,6 +23,7 @@ Foxglove under the extension settings.
 - [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
 - [Autoware msgs](https://github.com/kminoda/AutowareFoxgloveConverter) - Load Autoware related msgs
+- [Autoware Foxglove Extensions](https://github.com/tier4/AutowareFoxgloveExtensions) - Support for Autoware message types
 - [Plotly](https://github.com/MetaverseIndustries/plotly-panel) - Render plotly.Plot JSON messages
 - [Webcam](https://github.com/joshnewans/foxglove-webcam) - Republish webcam data into ROS
 - [2D VEX Panel](https://github.com/Daniel-Alp/foxglove-vex-2d-panel) - Visualize 2D paths on a VEX field in real-time
