@@ -217,6 +217,20 @@
     ]
   },
   {
+    "id": "tier4.autoware-foxglove-extensions",
+    "name": "Autoware Foxglove Extensions",
+    "description": "Support for Autoware message types",
+    "publisher": "TIER IV, Inc.",
+    "homepage": "https://github.com/tier4/AutowareFoxgloveExtensions",
+    "readme": "https://raw.githubusercontent.com/tier4/AutowareFoxgloveExtensions/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/tier4/AutowareFoxgloveExtensions/main/CHANGELOG.md",
+    "license": "Apache 2.0",
+    "version": "0.1.0",
+    "sha256sum": "a2af064bf0922e775b7978d5c8f1f3f834c3a062cf332a49cc7910170559b1d9",
+    "foxe": "https://github.com/tier4/AutowareFoxgloveExtensions/releases/download/v0.1.1/tier4.autoware-foxglove-extensions-0.1.1.foxe",
+    "keywords": ["ros", "autoware"]
+  },
+  {
     "id": "nvidia.nvblox_foxglove",
     "name": "Isaac ROS Nvblox Foxglove",
     "description": "Message converter to visualize nvblox data types in foxglove.",
