@@ -200,23 +200,6 @@
     ]
   },
   {
-    "id": "kminoda.autoware-msgs",
-    "name": "Autoware Msgs",
-    "description": "Autoware messages",
-    "publisher": "Koji Minoda",
-    "homepage": "https://github.com/kminoda/AutowareFoxgloveConverter",
-    "readme": "https://raw.githubusercontent.com/kminoda/AutowareFoxgloveConverter/main/README.md",
-    "changelog": "https://raw.githubusercontent.com/kminoda/AutowareFoxgloveConverter/main/CHANGELOG.md",
-    "license": "Apache 2.0",
-    "version": "0.0.1",
-    "sha256sum": "d7b831c665111aeab5779bea6f5b8f7d5c3afa6d2200d1f79ba2bafbb799497c",
-    "foxe": "https://github.com/kminoda/AutowareFoxgloveConverter/releases/download/v0.0.1/kminoda.AutowareFoxgloveConverter-0.0.1.foxe",
-    "keywords": [
-      "ros",
-      "autoware"
-    ]
-  },
-  {
     "id": "tier4.autoware-foxglove-extensions",
     "name": "Autoware Foxglove Extensions",
     "description": "Support for Autoware message types",

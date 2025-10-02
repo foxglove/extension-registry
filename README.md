@@ -22,7 +22,6 @@ Foxglove under the extension settings.
 - [2D orientation](https://github.com/CourchesneA/foxglove-orientation-panel) - Visualize 2D orientation from ROS imu or quaternion messages
 - [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
-- [Autoware msgs](https://github.com/kminoda/AutowareFoxgloveConverter) - Load Autoware related msgs
 - [Autoware Foxglove Extensions](https://github.com/tier4/AutowareFoxgloveExtensions) - Support for Autoware message types
 - [Plotly](https://github.com/MetaverseIndustries/plotly-panel) - Render plotly.Plot JSON messages
 - [Webcam](https://github.com/joshnewans/foxglove-webcam) - Republish webcam data into ROS
