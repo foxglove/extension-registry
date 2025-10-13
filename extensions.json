@@ -513,8 +513,8 @@
     ]
   },
   {
-    "id": "facontidavide.cloudini-decoder",
-    "name": "Cloudini Decoder",
+    "id": "facontidavide.cloudini-converter",
+    "name": "Cloudini Converter",
     "description": "Unpack CompressedPointCloud2 messages into PointCloud2 messages at runtime",
     "publisher": "facontidavide",
     "homepage": "https://github.com/facontidavide/cloudini/",
