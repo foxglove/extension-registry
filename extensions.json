@@ -228,7 +228,10 @@
     "version": "0.1.0",
     "sha256sum": "a2af064bf0922e775b7978d5c8f1f3f834c3a062cf332a49cc7910170559b1d9",
     "foxe": "https://github.com/tier4/AutowareFoxgloveExtensions/releases/download/v0.1.1/tier4.autoware-foxglove-extensions-0.1.1.foxe",
-    "keywords": ["ros", "autoware"]
+    "keywords": [
+      "ros",
+      "autoware"
+    ]
   },
   {
     "id": "nvidia.nvblox_foxglove",
@@ -507,6 +510,25 @@
       "customizable",
       "ros",
       "sensor"
+    ]
+  },
+  {
+    "id": "facontidavide.cloudini-converter",
+    "name": "Cloudini Converter",
+    "description": "Convert CompressedPointCloud2 messages into PointCloud2 messages at runtime",
+    "publisher": "facontidavide",
+    "homepage": "https://github.com/facontidavide/cloudini/",
+    "readme": "https://raw.githubusercontent.com/facontidavide/cloudini/refs/heads/main/cloudini_foxglove/README.md",
+    "changelog": "https://raw.githubusercontent.com/facontidavide/cloudini/refs/heads/main/cloudini_foxglove/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.2.0",
+    "sha256sum": "0a832d46690a90bbdd8db59b74ddf779cfc680b76eaf0d0a1b720448d9b9c0c7",
+    "foxe": "https://github.com/facontidavide/cloudini/releases/download/0.10.0/cloudini.foxglove-cloudini-converter-0.2.0.foxe",
+    "keywords": [
+      "pointcloud2",
+      "compressedpointcloud2",
+      "ros",
+      "cloudini"
     ]
   }
 ]
