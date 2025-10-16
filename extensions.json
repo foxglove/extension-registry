@@ -243,7 +243,7 @@
     "changelog": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/.github/refs/heads/main/resources/foxglove_plugins/CHANGELOG.md",
     "license": "Apache 2.0",
     "version": "2.2.0",
-    "sha256sum": "e789390b13aa60a367695f09dcc70d86cfd912e20deef2352599a65c094839d5",
+    "sha256sum": "ee51c21e18510c197d7748c51047a5c211765022e80fe15cd3303b9bbdbbecae",
     "foxe": "https://github.com/NVIDIA-ISAAC-ROS/.github/raw/main/resources/foxglove_plugins/nvidia.nvblox_foxglove-2.2.0.foxe",
     "keywords": [
       "ros",
