@@ -504,9 +504,9 @@
     "readme": "https://raw.githubusercontent.com/facontidavide/cloudini/refs/heads/main/cloudini_foxglove/README.md",
     "changelog": "https://raw.githubusercontent.com/facontidavide/cloudini/refs/heads/main/cloudini_foxglove/CHANGELOG.md",
     "license": "MIT",
-    "version": "0.2.0",
-    "sha256sum": "0a832d46690a90bbdd8db59b74ddf779cfc680b76eaf0d0a1b720448d9b9c0c7",
-    "foxe": "https://github.com/facontidavide/cloudini/releases/download/0.10.0/cloudini.foxglove-cloudini-converter-0.2.0.foxe",
+    "version": "0.10.1",
+    "sha256sum": "4736d775877e12c090e92cc12b876ca534727c76d2048b511db8e57e896203e3",
+    "foxe": "https://github.com/facontidavide/cloudini/releases/download/0.10.1/cloudini.foxglove-cloudini-converter-0.10.1.foxe  ",
     "keywords": [
       "pointcloud2",
       "compressedpointcloud2",
