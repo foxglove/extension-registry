@@ -513,5 +513,23 @@
       "ros",
       "cloudini"
     ]
+  },
+  {
+    "id": "foxglove.px4-converter",
+    "name": "PX4 Converter",
+    "description": "Convert PX4 messages into Foxglove schemas to visualize data in various panel types",
+    "publisher": "Foxglove",
+    "homepage": "https://github.com/foxglove/px4_converter",
+    "readme": "https://raw.githubusercontent.com/foxglove/px4_converter/refs/heads/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/foxglove/px4_converter/refs/heads/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.1.0",
+    "sha256sum": "60a2d6277eda0f6212c09371f9332334902243137a5215ae31365eea26be909e",
+    "foxe": "https://github.com/foxglove/px4_converter/releases/download/0.1.0/px4-converter-0.1.0.foxe",
+    "keywords": [
+      "px4",
+      "ros",
+      "drones"
+    ]
   }
 ]
