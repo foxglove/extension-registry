@@ -528,7 +528,6 @@
     "foxe": "https://github.com/foxglove/px4_converter/releases/download/0.1.0/px4-converter-0.1.0.foxe",
     "keywords": [
       "px4",
-      "ros",
       "drones"
     ]
   }
