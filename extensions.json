@@ -530,5 +530,24 @@
       "px4",
       "drones"
     ]
+  },
+  {
+    "id": "yangzhou.depth-rvl",
+    "name": "Depth RVL Decoder",
+    "description": "Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.",
+    "publisher": "Yang Zhou",
+    "homepage": "https://github.com/makeecat/foxglove-depth-rvl",
+    "readme": "https://github.com/makeecat/foxglove-depth-rvl/blob/main/README.md",
+    "changelog": "https://github.com/makeecat/foxglove-depth-rvl/blob/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "c550a4e2e6b30ea6932636efbddfc110fd42db2810cc69ad8b2bc47374aad7f7",
+    "foxe": "https://github.com/makeecat/foxglove-depth-rvl/releases/download/v1.0.0/yangzhou.rvl-depth-decoder-1.0.0.foxe",
+    "keywords": [
+        "foxglove",
+        "depth",
+        "rvl",
+        "ros"
+    ]
   }
 ]
