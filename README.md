@@ -13,6 +13,7 @@ Foxglove under the extension settings.
 
 # Extensions
 
+- [Isaac Powerpack](https://github.com/bemunin/isaac-powerpack) – A collection of tools for visualizing and debugging Isaac ROS data
 - [Blank Panel](https://github.com/foxglove/blank-panel-extension) – Add a little space to your layout
 - [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) – Use custom buttons with the MuShr package
 - [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) – Use an Xbox controller to control a robot
