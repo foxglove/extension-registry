@@ -549,5 +549,22 @@
         "rvl",
         "ros"
     ]
+  },
+  {
+    "id": "bemunin.isaac-powerpack",
+    "name": "isaac-powerpack",
+    "description": "A collection of tools for visualizing and debugging Isaac ROS data",
+    "publisher": "bemunin",
+    "homepage": "https://github.com/bemunin/isaac-powerpack",
+    "readme": "https://raw.githubusercontent.com/bemunin/isaac-powerpack/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/bemunin/isaac-powerpack/main/CHANGELOG.md",
+    "license": "Apache 2.0",
+    "version": "0.0.1",
+    "sha256sum": "6dded815563a11b2c43e9c02efe548bb2142facb0252d92b5763450a88a5a4d9",
+    "foxe": "https://github.com/bemunin/isaac-powerpack/releases/download/v0.0.1/bemunin.isaac-powerpack-0.0.1.foxe",
+    "keywords": [
+      "isaac-ros",
+      "isaac-sim"
+    ]
   }
 ]
