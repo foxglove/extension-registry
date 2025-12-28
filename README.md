@@ -21,6 +21,7 @@ Foxglove under the extension settings.
 - [Behavior Tree](https://github.com/polymathrobotics/foxglove_extensions/tree/main/behavior-tree) - Visualization and information on Behavior Trees for robotics applications
 - [Blank Panel](https://github.com/foxglove/blank-panel-extension) – Add a little space to your layout
 - [Depth RVL Decoder](https://github.com/makeecat/foxglove-depth-rvl) - Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.
+- [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
 - [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
 - [Isaac Powerpack](https://github.com/isaac-powerpack/isaac-powerpack) – A collection of tools for visualizing and debugging Isaac ROS data
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
