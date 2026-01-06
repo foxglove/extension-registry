@@ -544,10 +544,10 @@
     "sha256sum": "c550a4e2e6b30ea6932636efbddfc110fd42db2810cc69ad8b2bc47374aad7f7",
     "foxe": "https://github.com/makeecat/foxglove-depth-rvl/releases/download/v1.0.0/yangzhou.rvl-depth-decoder-1.0.0.foxe",
     "keywords": [
-        "foxglove",
-        "depth",
-        "rvl",
-        "ros"
+      "foxglove",
+      "depth",
+      "rvl",
+      "ros"
     ]
   },
   {
@@ -567,6 +567,24 @@
       "isaac-ros",
       "isaac-sim",
       "jetson"
+    ]
+  },
+  {
+    "id": "puyu.gauge_utils",
+    "name": "gauge_utils",
+    "description": "Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts",
+    "publisher": "puyu",
+    "homepage": "https://github.com/PuYuuu/foxglove-gauge-extension",
+    "readme": "https://raw.githubusercontent.com/PuYuuu/foxglove-gauge-extension/master/README.md",
+    "changelog": "https://raw.githubusercontent.com/PuYuuu/foxglove-gauge-extension/master/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "6a9e5d007d598e8f86f7603eea12cd8a0c0d61f2dbf82fa0a55a36066e913997",
+    "foxe": "https://github.com/PuYuuu/foxglove-gauge-extension/releases/download/v1.0.0/gauge_utils-1.0.0.foxe",
+    "keywords": [
+      "vehicle",
+      "speedometer",
+      "steering-wheel"
     ]
   }
 ]
