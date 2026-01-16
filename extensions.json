@@ -208,9 +208,9 @@
     "readme": "https://raw.githubusercontent.com/tier4/AutowareFoxgloveExtensions/main/README.md",
     "changelog": "https://raw.githubusercontent.com/tier4/AutowareFoxgloveExtensions/main/CHANGELOG.md",
     "license": "Apache 2.0",
-    "version": "0.1.2",
-    "sha256sum": "6819eef387b05b3aae109ba43700eabd77248ac42196de94b4180ab950840fe9",
-    "foxe": "https://github.com/tier4/AutowareFoxgloveExtensions/releases/download/v0.1.2/tier4.autoware-foxglove-extensions-0.1.2.foxe",
+    "version": "0.1.3",
+    "sha256sum": "cb182276f8747c27841839a89a58a82b11e85c3177d36ac83217dfbffe186c57",
+    "foxe": "https://github.com/tier4/AutowareFoxgloveExtensions/releases/download/v0.1.3/tier4.autoware-foxglove-extensions-0.1.3.foxe",
     "keywords": [
       "ros",
       "autoware"
