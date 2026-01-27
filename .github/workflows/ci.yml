@@ -23,7 +23,7 @@ jobs:
       - name: Detect changed extensions
         id: changes
         run: |
-          CHANGED_IDS=$(yarn --silent ts-node get-changed-extensions.ts "origin/${{ github.base_ref }}")
+          CHANGED_IDS=$(yarn run --silent ts-node get-changed-extensions.ts "origin/${{ github.base_ref }}")
           echo "changed_ids<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGED_IDS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
