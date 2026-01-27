@@ -1,4 +1,5 @@
 import { execFileSync } from "node:child_process";
+import fs from "node:fs";
 
 interface Extension {
   id: string;
@@ -29,8 +30,7 @@ function getBaseExtensions(baseRef: string): Extension[] {
  * Get the current extensions.json content from the working directory.
  */
 function getCurrentExtensions(): Extension[] {
-  // Use dynamic import to avoid caching issues
-  const content = require("fs").readFileSync("./extensions.json", "utf-8");
+  const content = fs.readFileSync("./extensions.json", "utf-8");
   return JSON.parse(content) as Extension[];
 }
 
