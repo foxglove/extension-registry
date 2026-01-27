@@ -2,7 +2,8 @@
   "packageManager": "yarn@4.3.1",
   "private": true,
   "scripts": {
-    "validate": "ts-node validate.ts"
+    "validate": "ts-node validate.ts",
+    "get-changed-extensions": "ts-node get-changed-extensions.ts"
   },
   "devDependencies": {
     "@actions/core": "1.10.1",

@@ -1,8 +1,6 @@
 name: CI
 
 on:
-  push:
-    branches: [main]
   pull_request:
 
 jobs:
@@ -10,6 +8,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history to compare with base branch
 
       - run: corepack enable
 
@@ -20,5 +20,23 @@ jobs:
 
       - run: yarn install --immutable
 
-      - name: Validate extensions.json
-        run: yarn validate
+      - name: Detect changed extensions
+        id: changes
+        run: |
+          CHANGED_IDS=$(yarn run --silent get-changed-extensions "origin/${{ github.base_ref }}")
+          echo "changed_ids<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED_IDS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          if [ -n "$CHANGED_IDS" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changed extensions:"
+            echo "$CHANGED_IDS"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No extension changes detected"
+          fi
+
+      - name: Validate changed extensions
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          yarn validate --ids "${{ steps.changes.outputs.changed_ids }}"
