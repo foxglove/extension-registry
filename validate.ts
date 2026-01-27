@@ -153,17 +153,56 @@ async function validateExtension(extension: (typeof registryJson)[number]) {
   await validateMarkdownUrl(extension.changelog, extension.id, "changelog");
 }
 
+function parseArgs(): { ids: string[] | undefined } {
+  const args = process.argv.slice(2);
+  const idsIndex = args.indexOf("--ids");
+  const idsArg = idsIndex !== -1 ? args[idsIndex + 1] : undefined;
+  if (idsArg != undefined) {
+    // Handle both comma-separated and newline-separated IDs
+    return { ids: idsArg.split(/[,\n]/).filter((id) => id.length > 0) };
+  }
+  return { ids: undefined };
+}
+
 async function main() {
-  const unusedSHAs = exemptExtensionsSHAs.filter(
-    (sha) => !registryJson.find((ext) => ext.sha256sum === sha)
-  );
-  for (const sha of unusedSHAs) {
-    error(
-      `The following SHA should be removed from exemptExtensionSHAs: ${sha}`
+  const { ids: targetIds } = parseArgs();
+
+  // Determine which extensions to validate
+  let extensionsToValidate: typeof registryJson;
+  if (targetIds != undefined) {
+    // Targeted validation: only validate specified extensions
+    extensionsToValidate = registryJson.filter((ext) =>
+      targetIds.includes(ext.id)
     );
+
+    // Warn if any requested IDs were not found
+    const foundIds = new Set(extensionsToValidate.map((ext) => ext.id));
+    for (const id of targetIds) {
+      if (!foundIds.has(id)) {
+        error(`Extension ID not found in registry: ${id}`);
+      }
+    }
+
+    console.log(
+      `Validating ${extensionsToValidate.length} changed extension(s): ${extensionsToValidate.map((e) => e.id).join(", ")}`
+    );
+  } else {
+    // Full validation: check all extensions and unused SHAs
+    extensionsToValidate = registryJson;
+
+    const unusedSHAs = exemptExtensionsSHAs.filter(
+      (sha) => !registryJson.find((ext) => ext.sha256sum === sha)
+    );
+    for (const sha of unusedSHAs) {
+      error(
+        `The following SHA should be removed from exemptExtensionSHAs: ${sha}`
+      );
+    }
+
+    console.log(`Validating all ${extensionsToValidate.length} extensions...`);
   }
 
-  for (const extension of registryJson) {
+  for (const extension of extensionsToValidate) {
     await validateExtension(extension);
   }
 }
