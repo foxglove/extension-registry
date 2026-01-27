@@ -1,4 +1,4 @@
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 
 interface Extension {
   id: string;
@@ -11,14 +11,17 @@ interface Extension {
  */
 function getBaseExtensions(baseRef: string): Extension[] {
   try {
-    const content = execSync(`git show ${baseRef}:extensions.json`, {
+    const content = execFileSync("git", ["show", `${baseRef}:extensions.json`], {
       encoding: "utf-8",
       stdio: ["pipe", "pipe", "pipe"],
     });
     return JSON.parse(content) as Extension[];
-  } catch {
-    // File doesn't exist in base branch, treat as empty
-    return [];
+  } catch (err) {
+    // Only treat as empty if the file doesn't exist; rethrow other errors
+    if (err instanceof Error && err.message.includes("does not exist")) {
+      return [];
+    }
+    throw err;
   }
 }
 
