@@ -15,6 +15,7 @@ Foxglove under the extension settings.
 
 - [2D orientation](https://github.com/CourchesneA/foxglove-orientation-panel) - Visualize 2D orientation from ROS imu or quaternion messages
 - [2D VEX Panel](https://github.com/Daniel-Alp/foxglove-vex-2d-panel) - Visualize 2D paths on a VEX field in real-time
+- [3D Tiles](https://github.com/kubojion/foxglove-3d-tiles) - Render Photorealistic 3D Tiles with ROS2 integration
 - [Autoware Foxglove Extensions](https://github.com/tier4/AutowareFoxgloveExtensions) - Support for Autoware message types
 - [Bar Display](https://github.com/laszloturanyi/foxglove-bar-display-extension) - Customizable bar display for scalar values with configurable min/max ranges, colors, orientations, and advanced fill behaviors
 - [Battery level indicator](https://github.com/Lynxdrone/foxglove-battery-extension) - Compact battery level indicator
