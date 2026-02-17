@@ -603,8 +603,31 @@
       "3d-tiles", 
       "3d", 
       "map", 
-      "ros2", 
+      "ros2",
       "urdf"
+    ]
+  },
+  {
+    "id": "kamathrobotics.button",
+    "name": "Button",
+    "description": "Configurable toggle/push button that publishes std_msgs/Bool on a topic or calls a std_srvs/SetBool service on state change.",
+    "publisher": "Kamath Robotics",
+    "homepage": "https://kamathrobotics.com",
+    "readme": "https://raw.githubusercontent.com/adityakamath/foxglove_extensions/main/button/README.md",
+    "changelog": "https://raw.githubusercontent.com/adityakamath/foxglove_extensions/main/button/CHANGELOG.md",
+    "license": "Apache-2.0",
+    "version": "0.0.1",
+    "sha256sum": "24fadd7a8e6471be6e0e436a1c64c83a5d3dc06d7b8cc38fbcdbd5424620a489",
+    "foxe": "https://github.com/adityakamath/foxglove_extensions/releases/download/v0.0.1/kamathrobotics.button-0.0.1.foxe",
+    "keywords": [
+      "button",
+      "control",
+      "boolean",
+      "publisher",
+      "service",
+      "toggle",
+      "push",
+      "ros"
     ]
   }
 ]
