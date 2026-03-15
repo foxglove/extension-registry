@@ -590,21 +590,26 @@
   {
     "id": "kubojion.foxglove-3d-tiles",
     "name": "3D Tiles",
-    "description": "Photorealistic 3D map visualization using 3D Tiles and Custom OGC Tiles.",
+    "description": "Photorealistic 3D map visualization and interactive waypoint publishing for ROS 2.",
     "publisher": "kubojion",
     "homepage": "https://github.com/kubojion/foxglove-3d-tiles",
     "readme": "https://raw.githubusercontent.com/kubojion/foxglove-3d-tiles/main/README.md",
     "changelog": "https://raw.githubusercontent.com/kubojion/foxglove-3d-tiles/main/CHANGELOG.md",
     "license": "MIT",
-    "version": "1.0.0",
-    "sha256sum": "3f31dc5ae3b4aa6bfed8562efd0f64032ea57ddb1272bb9aadd776a6ab6bd0a0",
-    "foxe": "https://github.com/kubojion/foxglove-3d-tiles/releases/download/v.1.0.0/kubojion.foxglove-3d-tiles-1.0.0.foxe",
+    "version": "2.0.0",
+    "sha256sum": "1dfb5e67aaed02a891e4b03c087971ec0e488ae4bfffbac275350455f40d4675",
+    "foxe": "https://github.com/kubojion/foxglove-3d-tiles/releases/download/v2.0.0/kubojion.foxglove-3d-tiles-2.0.0.foxe",
     "keywords": [
       "3d-tiles", 
       "3d", 
       "map", 
       "ros2",
-      "urdf"
+      "urdf",
+      "markers",
+      "costmap",
+      "navigation",
+      "waypoints",
+      "osm"
     ]
   },
   {
