@@ -634,5 +634,25 @@
       "push",
       "ros"
     ]
+  },
+  {
+    "id": "hulchvse.odom-converter",
+    "name": "Odometry to Pose Converter",
+    "description": "Foxglove message converters for nav_msgs/msg/Odometry to PoseStamped and SceneUpdate trail visualization.",
+    "publisher": "hulchvse",
+    "homepage": "https://github.com/comrob/foxglove-extensions-crl/tree/main/odom-converter",
+    "readme": "https://raw.githubusercontent.com/comrob/foxglove-extensions-crl/main/odom-converter/README.md",
+    "changelog": "https://raw.githubusercontent.com/comrob/foxglove-extensions-crl/main/odom-converter/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.5.0",
+    "sha256sum": "e6935b804b1cb908e39a07f83de2e9da2fdc2a2adb4b452d9833d160c4ceb91a",
+    "foxe": "https://github.com/comrob/foxglove-extensions-crl/releases/download/odom-converter-v0.5.0/hulchvse.odom-converter-0.5.0.foxe",
+    "keywords": [
+      "odometry",
+      "ros",
+      "ros2",
+      "sceneupdate",
+      "3d"
+    ]
   }
 ]

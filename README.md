@@ -34,6 +34,7 @@ Foxglove under the extension settings.
 - [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) – Use custom buttons with the MuShr package
 - [Orientation Panel 2D](https://github.com/peek-robotics/foxglove-orientation-panel-2d) - A 2D visualization of orientation data from ROS messages with toggleable roll, pitch, and yaw displays
 - [Orientation Panel 3D](https://github.com/peek-robotics/foxglove-orientation-panel-3d) - A simple 3D visualization of orientation from topics containing quaternions
+- [Odometry to Pose Converter](https://github.com/comrob/foxglove-extensions-crl/tree/main/odom-converter) - Converts nav_msgs/msg/Odometry to PoseStamped and SceneUpdate with configurable per-topic 3D trail visualization
 - [Plotly](https://github.com/MetaverseIndustries/plotly-panel) - Render plotly.Plot JSON messages
 - [Polygon ROS](https://github.com/fireflyautomatix/foxglove-polygon-ros) - Visualize complex polygons
 - [PX4 Converter](https://github.com/foxglove/px4_converter) - Extended visualization of PX4 messages in Foxglove panels
