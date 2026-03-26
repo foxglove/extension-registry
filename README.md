@@ -31,6 +31,7 @@ Foxglove under the extension settings.
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
 - [Markdown](https://github.com/polymathrobotics/foxglove_extensions/tree/main/markdown) - Basic markdown renderer extension for documentation and notes
 - [MatricDecode](https://github.com/MaticianInc/MatricDecode) - Extremely fast h.264 decoder based on WebAssembly
+- [MCAP Recorder](https://github.com/qrafty-ai/foxglove_recorder_ui) - ROSBAG recorder ui with topic selection support
 - [MuSHR](https://github.com/mcdoerr/foxglove-mushr-extension) – Use custom buttons with the MuShr package
 - [Orientation Panel 2D](https://github.com/peek-robotics/foxglove-orientation-panel-2d) - A 2D visualization of orientation data from ROS messages with toggleable roll, pitch, and yaw displays
 - [Orientation Panel 3D](https://github.com/peek-robotics/foxglove-orientation-panel-3d) - A simple 3D visualization of orientation from topics containing quaternions
