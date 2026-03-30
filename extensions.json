@@ -675,5 +675,26 @@
       "sceneupdate",
       "3d"
     ]
+  },
+  {
+    "id": "qraftyai.foxglove-recorder-ui",
+    "name": "MCAP Recorder",
+    "description": "Control MCAP recording sessions with ROS2 integration",
+    "publisher": "qrafty-ai",
+    "homepage": "https://github.com/qrafty-ai/foxglove_recorder_ui",
+    "readme": "https://raw.githubusercontent.com/qrafty-ai/foxglove_recorder_ui/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/qrafty-ai/foxglove_recorder_ui/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.0.1",
+    "sha256sum": "561189477a1328a66ff9326629300f745f313d71ce43e0617fd2ff29bc1a9cef",
+    "foxe": "https://github.com/qrafty-ai/foxglove_recorder_ui/releases/download/v0.0.1/qraftyai.foxglove-recorder-ui-0.0.1.foxe",
+    "keywords": [
+      "mcap",
+      "recorder",
+      "ros2",
+      "ros",
+      "recording",
+      "bag"
+    ]
   }
 ]
