@@ -636,6 +636,27 @@
     ]
   },
   {
+    "id": "cap.cap",
+    "name": "cap",
+    "description": "Historical bag and MCAP scene search with quick filters, snippets, camera previews, and click-to-seek results.",
+    "publisher": "cap",
+    "homepage": "https://github.com/kylerniemann/cap",
+    "readme": "https://raw.githubusercontent.com/kylerniemann/cap/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/kylerniemann/cap/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.2.0",
+    "sha256sum": "673e0bf5c9d1a91bbb45dfb7848016cb720775960d1970bf7a2a1d857b678f76",
+    "foxe": "https://github.com/kylerniemann/cap/releases/download/v0.2.0/cap.cap-0.2.0.foxe",
+    "keywords": [
+      "foxglove",
+      "search",
+      "mcap",
+      "rosbag",
+      "robotics",
+      "autonomy"
+    ]
+  },
+  {
     "id": "hulchvse.odom-converter",
     "name": "Odometry to Pose Converter",
     "description": "Foxglove message converters for nav_msgs/msg/Odometry to PoseStamped and SceneUpdate trail visualization.",
