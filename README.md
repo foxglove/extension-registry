@@ -22,7 +22,7 @@ Foxglove under the extension settings.
 - [Behavior Tree](https://github.com/polymathrobotics/foxglove_extensions/tree/main/behavior-tree) - Visualization and information on Behavior Trees for robotics applications
 - [Blank Panel](https://github.com/foxglove/blank-panel-extension) – Add a little space to your layout
 - [Button](https://github.com/adityakamath/foxglove_extensions/tree/main/button) - Configurable toggle/push button that publishes std_msgs/Bool on a topic or calls a std_srvs/SetBool service on state change
-- [cap](https://github.com/kylerniemann/cap) - Historical bag and MCAP scene search with quick filters, snippets, camera previews, and click-to-seek results
+- [cap](https://github.com/kylerniemann/cap) - Foxglove extension for historical ROS bag and MCAP scene search, snippets, camera previews, and click-to-seek results
 - [Depth RVL Decoder](https://github.com/makeecat/foxglove-depth-rvl) - Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.
 - [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
 - [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
