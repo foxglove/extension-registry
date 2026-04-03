@@ -696,5 +696,26 @@
       "recording",
       "bag"
     ]
+  },
+  {
+    "id": "zalandemeter.flight-indicators",
+    "name": "Flight Indicators",
+    "description": "Six classic aviation instrument panels for Foxglove Studio — airspeed, altimeter, attitude, heading, turn coordinator, and variometer.",
+    "publisher": "Zalán Demeter",
+    "homepage": "https://github.com/zalandemeter/foxglove-flight-indicators",
+    "readme": "https://raw.githubusercontent.com/zalandemeter/foxglove-flight-indicators/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/zalandemeter/foxglove-flight-indicators/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "05526c9da7962d6f8894f800b161adcbc68ccc7fb7b2a0ba038e0666f64d1ae4",
+    "foxe": "https://github.com/zalandemeter/foxglove-flight-indicators/releases/download/v1.0.0/zalandemeter.flight-indicators-1.0.0.foxe",
+    "keywords": [
+      "aviation",
+      "flight",
+      "instrument",
+      "UAV",
+      "ROS",
+      "ROS2"
+    ]
   }
 ]
