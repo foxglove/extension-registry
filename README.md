@@ -23,6 +23,7 @@ Foxglove under the extension settings.
 - [Blank Panel](https://github.com/foxglove/blank-panel-extension) – Add a little space to your layout
 - [Button](https://github.com/adityakamath/foxglove_extensions/tree/main/button) - Configurable toggle/push button that publishes std_msgs/Bool on a topic or calls a std_srvs/SetBool service on state change
 - [cap](https://github.com/kylerniemann/cap) - Foxglove extension for historical ROS bag and MCAP scene search, snippets, camera previews, and click-to-seek results
+- [Control Extension](https://github.com/XENONFFM/foxglove-control-extension) - Foxglove panels for remote control using a gampad/joystick/keyboard.
 - [Depth RVL Decoder](https://github.com/makeecat/foxglove-depth-rvl) - Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.
 - [Flight Indicators](https://github.com/zalandemeter/foxglove-flight-indicators) - Six classic aviation instrument panels — airspeed, altimeter, attitude, heading, turn coordinator, and variometer
 - [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
