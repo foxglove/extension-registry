@@ -728,7 +728,7 @@
     "changelog": "https://github.com/XENONFFM/foxglove-joystick/blob/main/CHANGELOG.md",
     "license": "MIT",
     "version": "1.0.0.beta6",
-    "sha256sum": "sha256:a2c3007f221c7a779132d6a5d39b562b8631a67a2960f57287de2f6e8d7fcb41",
+    "sha256sum": "a2c3007f221c7a779132d6a5d39b562b8631a67a2960f57287de2f6e8d7fcb41",
     "foxe": "https://github.com/XENONFFM/foxglove-control-extension/releases/download/v1.0.0-beta.6/xenonffm.control-extension-1.0.0-beta.6.foxe",
     "keywords": [
       "joystick",
