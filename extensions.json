@@ -600,9 +600,9 @@
     "sha256sum": "1dfb5e67aaed02a891e4b03c087971ec0e488ae4bfffbac275350455f40d4675",
     "foxe": "https://github.com/kubojion/foxglove-3d-tiles/releases/download/v2.0.0/kubojion.foxglove-3d-tiles-2.0.0.foxe",
     "keywords": [
-      "3d-tiles", 
-      "3d", 
-      "map", 
+      "3d-tiles",
+      "3d",
+      "map",
       "ros2",
       "urdf",
       "markers",
@@ -716,6 +716,32 @@
       "UAV",
       "ROS",
       "ROS2"
+    ]
+  },
+  {
+    "id": "aslz.control-extension",
+    "name": "Control Extension",
+    "description": "Foxglove panels for remote control using a gampad/joystick/keyboard.",
+    "publisher": "XENONFFM",
+    "homepage": "https://github.com/XENONFFM/foxglove-control-extension",
+    "readme": "https://raw.githubusercontent.com/XENONFFM/foxglove-control-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/XENONFFM/foxglove-control-extension/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0.beta-6",
+    "sha256sum": "a2c3007f221c7a779132d6a5d39b562b8631a67a2960f57287de2f6e8d7fcb41",
+    "foxe": "https://github.com/XENONFFM/foxglove-control-extension/releases/download/v1.0.0-beta.6/xenonffm.control-extension-1.0.0-beta.6.foxe",
+    "keywords": [
+      "joystick",
+      "touch",
+      "gamepad",
+      "keyboard",
+      "remote",
+      "control",
+      "twist",
+      "joy",
+      "teleop",
+      "ros",
+      "ros2"
     ]
   }
 ]
