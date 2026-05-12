@@ -728,7 +728,7 @@
     "changelog": "https://raw.githubusercontent.com/BenSaarAB/foxglove_panels/main/system-health/CHANGELOG.md",
     "license": "MIT",
     "version": "0.1.0",
-    "sha256sum": "66db2afc83d452977d3ee47c844d2ed38e61c124b26667dd6e1459fb0bbce393",
+    "sha256sum": "b20358a9906c95351ae02e088b95cb74c29206fb5d6b4eebd3f805f17a9b7241",
     "foxe": "https://github.com/BenSaarAB/foxglove_panels/releases/download/v0.1.0/bensaar.system-health-0.1.0.foxe",
     "keywords": [
       "health",
