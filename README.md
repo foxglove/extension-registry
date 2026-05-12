@@ -45,7 +45,8 @@ Foxglove under the extension settings.
 - [ROS2 Graph](https://github.com/polymathrobotics/foxglove_extensions/tree/main/ros2-graph) - Visualization and information on nodes, topics and other ROS2 Graph data (requires running [Graph Monitor](https://github.com/ros-tooling/graph-monitor))
 - [ROS2 Parameters](https://github.com/danclapp4/ros2-parameter-extension) - Interact with ROS2 Parameters
 - [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) – Use an Xbox controller to control a robot
-- [String Panel](https://github.com/Ry0/foxglove-string-panel) - This extension displays the string data of std_msg/String or std_msg/msg/String on the panel.
+- [String Panel](https://github.com/Ry0/foxglove-string-panel)
+- [System Health](https://github.com/BenSaarAB/foxglove_panels) - Compact health badge grid for system submodules - This extension displays the string data of std_msg/String or std_msg/msg/String on the panel.
 - [Teleop Twist Keyboard](https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard) - A foxglove version of the ROS teleop_twist_keyboard node, used to publish Twist messages based on keyboard control.
 - [Virtual Joystick](https://github.com/yulong88888/foxglove-nipple) - Easier to use twist topic publisher
 - [Webcam](https://github.com/joshnewans/foxglove-webcam) - Republish webcam data into ROS
