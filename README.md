@@ -30,6 +30,7 @@ Foxglove under the extension settings.
 - [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
 - [Isaac Powerpack](https://github.com/isaac-powerpack/pow) – A collection of tools for visualizing and debugging Isaac ROS data
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
+- [Joystick Connector](https://github.com/zalandemeter/foxglove-joystick-connector) - Publish sensor_msgs/msg/Joy from a physical gamepad or a virtual on-screen joystick
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
 - [Markdown](https://github.com/polymathrobotics/foxglove_extensions/tree/main/markdown) - Basic markdown renderer extension for documentation and notes

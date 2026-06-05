@@ -677,6 +677,27 @@
     ]
   },
   {
+    "id": "zalandemeter.joystick-connector",
+    "name": "Joystick Connector",
+    "description": "Publish sensor_msgs/msg/Joy from a physical gamepad or a virtual on-screen joystick.",
+    "publisher": "zalandemeter",
+    "homepage": "https://github.com/zalandemeter/foxglove-joystick-connector",
+    "readme": "https://raw.githubusercontent.com/zalandemeter/foxglove-joystick-connector/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/zalandemeter/foxglove-joystick-connector/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "1.0.0",
+    "sha256sum": "cf91c72d121167440d4f41a7d9ad51003a8eaf214d0d511453ad979ca7e25923",
+    "foxe": "https://github.com/zalandemeter/foxglove-joystick-connector/releases/download/v1.0.0/zalandemeter.joystick-connector-1.0.0.foxe",
+    "keywords": [
+      "ros",
+      "joystick",
+      "gamepad",
+      "joy",
+      "control",
+      "interactive"
+    ]
+  },
+  {
     "id": "qraftyai.foxglove-recorder-ui",
     "name": "MCAP Recorder",
     "description": "Control MCAP recording sessions with ROS2 integration",
