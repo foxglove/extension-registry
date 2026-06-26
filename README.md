@@ -46,6 +46,7 @@ Foxglove under the extension settings.
 - [PX4 Converter](https://github.com/foxglove/px4_converter) - Extended visualization of PX4 messages in Foxglove panels
 - [ROS2 Graph](https://github.com/polymathrobotics/foxglove_extensions/tree/main/ros2-graph) - Visualization and information on nodes, topics and other ROS2 Graph data (requires running [Graph Monitor](https://github.com/ros-tooling/graph-monitor))
 - [ROS2 Parameters](https://github.com/danclapp4/ros2-parameter-extension) - Interact with ROS2 Parameters
+- [ros2_medkit Diagnostics](https://github.com/selfpatch/ros2_medkit_foxglove_extension) - Turn ROS 2 failures into structured faults on a SOVD entity tree, over the ros2_medkit gateway
 - [SidewaysTeleop](https://github.com/rscova/foxglove-sideways-teleop-extension) – Use an Xbox controller to control a robot
 - [String Panel](https://github.com/Ry0/foxglove-string-panel) - This extension displays the string data of std_msg/String or std_msg/msg/String on the panel.
 - [Teleop Twist Keyboard](https://github.com/usedhondacivic/foxglove-teleop-twist-keyboard) - A foxglove version of the ROS teleop_twist_keyboard node, used to publish Twist messages based on keyboard control.

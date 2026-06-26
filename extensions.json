@@ -764,5 +764,26 @@
       "ros",
       "ros2"
     ]
+  },
+  {
+    "id": "selfpatch.ros2-medkit-foxglove-extension",
+    "name": "ros2_medkit Diagnostics",
+    "description": "Turn ROS 2 failures into structured faults on a SOVD entity tree, with live fault streaming, topic/operation access, parameter editing and lifecycle control",
+    "publisher": "selfpatch",
+    "homepage": "https://github.com/selfpatch/ros2_medkit_foxglove_extension",
+    "readme": "https://raw.githubusercontent.com/selfpatch/ros2_medkit_foxglove_extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/selfpatch/ros2_medkit_foxglove_extension/main/CHANGELOG.md",
+    "license": "Apache-2.0",
+    "version": "0.6.0",
+    "sha256sum": "51d0f1ceccc9a6f1d23f2526bdcdf32b5afaeb61c6dd9fc1209ca10ef8ed35e3",
+    "foxe": "https://github.com/selfpatch/ros2_medkit_foxglove_extension/releases/download/v0.6.0/selfpatch.ros2-medkit-foxglove-extension-0.6.0.foxe",
+    "keywords": [
+      "ros2",
+      "ros",
+      "medkit",
+      "diagnostics",
+      "sovd",
+      "faults"
+    ]
   }
 ]
