@@ -28,8 +28,6 @@ Foxglove under the extension settings.
 - [Depth RVL Decoder](https://github.com/makeecat/foxglove-depth-rvl) - Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.
 - [Flight Indicators](https://github.com/zalandemeter/foxglove-flight-indicators) - Six classic aviation instrument panels — airspeed, altimeter, attitude, heading, turn coordinator, and variometer
 - [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
-- [H264 Video Playback](https://github.com/codewithpassion/foxglove-studio-h264-extension) - Experimental H264 video playback
-- [Isaac Powerpack](https://github.com/isaac-powerpack/pow) – A collection of tools for visualizing and debugging Isaac ROS data
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
 - [Joystick Connector](https://github.com/zalandemeter/foxglove-joystick-connector) - Publish sensor_msgs/msg/Joy from a physical gamepad or a virtual on-screen joystick
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls

@@ -88,23 +88,6 @@
     ]
   },
   {
-    "id": "missionrobotics.h264-panel",
-    "name": "H264 video panel",
-    "description": "Experimental H264 playback",
-    "publisher": "Mission Robotics",
-    "homepage": "https://github.com/codewithpassion/foxglove-studio-h264-extension",
-    "readme": "https://raw.githubusercontent.com/codewithpassion/foxglove-studio-h264-extension/v0.1.0/README.md",
-    "changelog": "https://raw.githubusercontent.com/codewithpassion/foxglove-studio-h264-extension/v0.1.0/CHANGELOG.md",
-    "license": "MIT",
-    "version": "0.1.0",
-    "sha256sum": "87e0a4fe397974fb2e3771f370009ccdbe195498d4792c04bc08b2e2482bda71",
-    "foxe": "https://github.com/codewithpassion/foxglove-studio-h264-extension/releases/download/v0.1.0/missionrobotics.h264-panel-0.1.0.foxe",
-    "keywords": [
-      "video",
-      "h264"
-    ]
-  },
-  {
     "id": "ivi.orientation-extension",
     "name": "orientation",
     "description": "Display object orientation in 2D space",
@@ -548,25 +531,6 @@
       "depth",
       "rvl",
       "ros"
-    ]
-  },
-  {
-    "id": "bemunin.isaac-powerpack",
-    "name": "isaac-powerpack",
-    "description": "A collection of tools for visualizing and debugging Isaac ROS data",
-    "publisher": "bemunin",
-    "homepage": "https://github.com/isaac-powerpack/pow",
-    "readme": "https://raw.githubusercontent.com/isaac-powerpack/pow/main/README.md",
-    "changelog": "https://raw.githubusercontent.com/isaac-powerpack/pow/pow-foxglove@v0.1.0a3/packages/pow-foxglove/CHANGELOG.md",
-    "license": "Apache 2.0",
-    "version": "0.1.0a3",
-    "sha256sum": "44ee55d998e54c028b55b5a36791f9469f1553333ad1c7e25eca4cbd1fca0ada",
-    "foxe": "https://github.com/isaac-powerpack/pow/releases/download/pow-foxglove%40v0.1.0a3/bemunin.isaac-powerpack-0.1.0a3.foxe",
-    "keywords": [
-      "ros2",
-      "isaac-ros",
-      "isaac-sim",
-      "jetson"
     ]
   },
   {
