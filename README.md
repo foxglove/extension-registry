@@ -42,6 +42,7 @@ Foxglove under the extension settings.
 - [Plotly](https://github.com/MetaverseIndustries/plotly-panel) - Render plotly.Plot JSON messages
 - [Polygon ROS](https://github.com/fireflyautomatix/foxglove-polygon-ros) - Visualize complex polygons
 - [PX4 Converter](https://github.com/foxglove/px4_converter) - Extended visualization of PX4 messages in Foxglove panels
+- [Parameter Editor](https://github.com/RobotX-Workshops/foxglove-params) - View and adjust ROS parameters of any type with sliders, checkboxes and numeric inputs, without a separate rosbridge server
 - [ROS2 Graph](https://github.com/polymathrobotics/foxglove_extensions/tree/main/ros2-graph) - Visualization and information on nodes, topics and other ROS2 Graph data (requires running [Graph Monitor](https://github.com/ros-tooling/graph-monitor))
 - [ROS2 Parameters](https://github.com/danclapp4/ros2-parameter-extension) - Interact with ROS2 Parameters
 - [ros2_medkit Diagnostics](https://github.com/selfpatch/ros2_medkit_foxglove_extension) - Turn ROS 2 failures into structured faults on a SOVD entity tree, over the ros2_medkit gateway
