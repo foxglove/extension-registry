@@ -375,10 +375,10 @@
     "homepage": "https://github.com/polymathrobotics/foxglove_extensions",
     "readme": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/behavior-tree/README.md",
     "changelog": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/behavior-tree/CHANGELOG.md",
-    "license": "UNLICENSED",
-    "version": "0.1.1",
+    "license": "Apache-2.0",
+    "version": "0.2.0",
     "sha256sum": "2a84b859d7e6024869faacec52d232534c8476e2c1b52c8e87aca2cc557a59ec",
-    "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.0.0/polymathrobotics.behavior-tree-0.1.1.foxe",
+    "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.1.0/polymathrobotics.behavior-tree-0.2.0.foxe",
     "keywords": [
       "behavior-trees",
       "ros2"
