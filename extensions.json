@@ -377,7 +377,7 @@
     "changelog": "https://raw.githubusercontent.com/polymathrobotics/foxglove_extensions/main/behavior-tree/CHANGELOG.md",
     "license": "Apache-2.0",
     "version": "0.2.0",
-    "sha256sum": "2a84b859d7e6024869faacec52d232534c8476e2c1b52c8e87aca2cc557a59ec",
+    "sha256sum": "96d730e4bf616854ed084c2b14ea8ce6b2160c05faac06b8836ab9e7718b077d",
     "foxe": "https://github.com/polymathrobotics/foxglove_extensions/releases/download/v1.1.0/polymathrobotics.behavior-tree-0.2.0.foxe",
     "keywords": [
       "behavior-trees",
