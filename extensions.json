@@ -770,5 +770,26 @@
       "editor",
       "panel"
     ]
-  }
+    },
+    {
+        "id": "hippopond.geofence-analyzer",
+        "name": "Geofence Analyzer",
+        "description": "Geospatial zone analysis tool for Foxglove Studio.",
+        "publisher": "hippopond",
+        "homepage": "https://github.com/hippopond/foxglove-geofence-analyzer",
+        "readme": "https://raw.githubusercontent.com/hippopond/foxglove-geofence-analyzer/main/README.md",         
+        "changelog": "https://raw.githubusercontent.com/hippopond/foxglove-geofence-analyzer/main/CHANGELOG.md",   
+        "license": "MIT",
+        "version": "1.1.0",
+        "sha256sum": "08c99c0a33b87b58ceac78cacb94689d4df619cb024b3cc622e1c3a4dde82d28",
+        "foxe": "https://github.com/hippopond/foxglove-geofence-analyzer/releases/download/v1.1.0/hippopond.       
+  geofence-analyzer-1.1.0.foxe",
+        "keywords": [
+          "geofence",
+          "geospatial",
+          "gps",
+          "map",
+          "turf"
+        ]
+    }
 ]
