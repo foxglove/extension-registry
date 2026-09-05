@@ -29,6 +29,7 @@ Foxglove under the extension settings.
 - [Flight Indicators](https://github.com/zalandemeter/foxglove-flight-indicators) - Six classic aviation instrument panels — airspeed, altimeter, attitude, heading, turn coordinator, and variometer
 - [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
 - [Geofence Analyzer](https://github.com/hippopond/foxglove-geofence-analyzer) - Geospatial zone analysis tool for Foxglove
+- [Grasp Analyzer](https://github.com/hippopond/foxglove-grasp-analyzer) - Dynamically identify semantic grasp phases (Attempt, Miss, Hold, Release) from flattened ML datasets and native ROS 2 telemetry.
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
 - [Joystick Connector](https://github.com/zalandemeter/foxglove-joystick-connector) - Publish sensor_msgs/msg/Joy from a physical gamepad or a virtual on-screen joystick
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
