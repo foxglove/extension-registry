@@ -790,5 +790,25 @@
           "map",
           "turf"
         ]
-    }
+    },
+    {
+      "id": "hippopond.grasp-analyzer",
+      "name": "Grasp Analyzer",
+      "description": "Dynamically identify semantic grasp phases (Attempt, Hold, Miss) from flattened ML datasets and native ROS 2 telemetry.",
+      "publisher": "hippopond",
+      "homepage": "https://github.com/hippopond/foxglove-grasp-analyzer",
+      "readme": "https://raw.githubusercontent.com/hippopond/foxglove-grasp-analyzer/main/README.md",        
+      "changelog": "https://raw.githubusercontent.com/hippopond/foxglove-grasp-analyzer/main/CHANGELOG.md",  
+      "license": "MIT",
+      "version": "1.0.0",
+      "sha256sum": "ca816c8d13861e55fc9b420bfffceaf4d6c403c33118e9b2e67ca3a2e18c5b13",
+      "foxe": "https://github.com/hippopond/foxglove-grasp-analyzer/releases/download/v1.0.0/hippopond.grasp-analyzer-1.0.0.foxe",
+      "keywords": [
+           "grasp",
+           "kinematics",
+           "machine-learning",
+           "ros2",
+           "lerobot"
+        ]
+     }
 ]
