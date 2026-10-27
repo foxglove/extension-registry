@@ -26,6 +26,7 @@ Foxglove under the extension settings.
 - [Cloudini Converter](https://github.com/facontidavide/cloudini) - Convert CompressedPointCloud2 messages into PointCloud2 messages at runtime
 - [Control Extension](https://github.com/XENONFFM/foxglove-control-extension) - Foxglove panels for remote control using a gampad/joystick/keyboard.
 - [Depth RVL Decoder](https://github.com/makeecat/foxglove-depth-rvl) - Foxglove schema converter that turns RVL compressed depth images into sensor_msgs/Image depth frames.
+- [DIY DVR](https://github.com/foxglove/diy-dvr-panel) - Record a rolling buffer from a live WebSocket connection and save it to MCAP on demand or automatically
 - [Flight Indicators](https://github.com/zalandemeter/foxglove-flight-indicators) - Six classic aviation instrument panels — airspeed, altimeter, attitude, heading, turn coordinator, and variometer
 - [Gauge Utils](https://github.com/PuYuuu/foxglove-gauge-extension/) - Visualize vehicle data with customizable gauges: speedometer, steering wheel, and time series charts
 - [Geofence Analyzer](https://github.com/hippopond/foxglove-geofence-analyzer) - Geospatial zone analysis tool for Foxglove

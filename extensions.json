@@ -810,5 +810,26 @@
            "ros2",
            "lerobot"
         ]
-     }
+     },
+  {
+    "id": "foxglove.diydvrextension",
+    "name": "DIY DVR",
+    "description": "Record a rolling buffer from a live WebSocket connection and save it to MCAP on demand or automatically",
+    "publisher": "foxglove",
+    "homepage": "https://github.com/foxglove/diy-dvr-panel",
+    "readme": "https://raw.githubusercontent.com/foxglove/diy-dvr-panel/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/foxglove/diy-dvr-panel/main/CHANGELOG.md",
+    "license": "MIT",
+    "version": "0.3.0",
+    "sha256sum": "22ec1cdb1bf90d44fcb46ecca65038e7a950caedb83cca78615abb1f13966091",
+    "foxe": "https://github.com/foxglove/diy-dvr-panel/releases/download/v0.3.0/foxglove.diydvrextension-0.3.0.foxe",
+    "keywords": [
+      "dvr",
+      "recording",
+      "buffer",
+      "mcap",
+      "websocket",
+      "live"
+    ]
+  }
 ]
