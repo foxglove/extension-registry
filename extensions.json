@@ -1,5 +1,25 @@
 [
   {
+    "id": "xiaojiaoyazi.foxglove-cyberrecord",
+    "name": "Apollo Cyber Record",
+    "description": "Read Apollo Cyber RT .record files directly in Foxglove, with protobuf schemas recovered from each channel.",
+    "publisher": "XiaoJiaoYaZi",
+    "homepage": "https://github.com/XiaoJiaoYaZi/foxglove-cyber_record-extension",
+    "readme": "https://raw.githubusercontent.com/XiaoJiaoYaZi/foxglove-cyber_record-extension/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/XiaoJiaoYaZi/foxglove-cyber_record-extension/main/CHANGELOG.md",
+    "license": "Apache-2.0",
+    "version": "0.1.0",
+    "sha256sum": "905c8ba831d1b6c8e5e25ce0d1a481e8cf6c1bf44a8f78a996e56e8417751697",
+    "foxe": "https://github.com/XiaoJiaoYaZi/foxglove-cyber_record-extension/releases/download/v0.1.0/xiaojiaoyazi.foxglove-cyberrecord-0.1.0.foxe",
+    "keywords": [
+      "apollo",
+      "cyber",
+      "cyberrecord",
+      "record",
+      "data-loader"
+    ]
+  },
+  {
     "id": "foxglove.blank-panel-extension",
     "name": "Blank Panel",
     "description": "Add a little space to your layout",
