@@ -33,6 +33,7 @@ Foxglove under the extension settings.
 - [Joint State Publisher](https://github.com/rogy-ken/foxglove-joint-state-publisher) - Publish joint state with slider UI.
 - [Joystick Connector](https://github.com/zalandemeter/foxglove-joystick-connector) - Publish sensor_msgs/msg/Joy from a physical gamepad or a virtual on-screen joystick
 - [Joystick/gamepad control](https://github.com/joshnewans/foxglove-joystick) - Receive/monitor/generate joystick and gamepad controls
+- [Livox CustomMsg Converter](https://github.com/leonardonels/foxglove-livox-extension) - Converts livox_ros_driver2/msg/CustomMsg to foxglove.PointCloud so Livox point clouds render in the 3D panel
 - [LogMessageViewer Panel](https://github.com/flypyka/foxglove-extensions) - Displays any foxglove.Log messages received during the entire displayed timeline.
 - [Markdown](https://github.com/polymathrobotics/foxglove_extensions/tree/main/markdown) - Basic markdown renderer extension for documentation and notes
 - [MatricDecode](https://github.com/MaticianInc/MatricDecode) - Extremely fast h.264 decoder based on WebAssembly
