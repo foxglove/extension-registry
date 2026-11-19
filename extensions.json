@@ -821,7 +821,7 @@
        "changelog": "https://raw.githubusercontent.com/leonardonels/foxglove-livox-extension/main/CHANGELOG.md",
        "license": "MIT",
        "version": "0.1.0",
-       "sha256sum": "63065423d6aec9cfda6bb4f36aad22c1d30f173362529d4ca8d5be4ade61c149",
+       "sha256sum": "f9fa6b4830ff61519459e848823e2169288cc99fceef785f724a28e2d995cf93",
        "foxe": "https://github.com/leonardonels/foxglove-livox-extension/releases/download/v0.1.0/leonardonels.livox-pcl-0.1.0.foxe",
        "keywords": [
         "livox",
