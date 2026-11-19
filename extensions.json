@@ -810,5 +810,26 @@
            "ros2",
            "lerobot"
         ]
+     },
+     {
+       "id": "leonardonels.livox-pcl",
+       "name": "Livox CustomMsg Converter",
+       "description": "Converts livox_ros_driver2/msg/CustomMsg to foxglove.PointCloud so Livox point clouds render in the 3D panel",
+       "publisher": "leonardonels",
+       "homepage": "https://github.com/leonardonels/foxglove-livox-extension",
+       "readme": "https://raw.githubusercontent.com/leonardonels/foxglove-livox-extension/main/README.md",
+       "changelog": "https://raw.githubusercontent.com/leonardonels/foxglove-livox-extension/main/CHANGELOG.md",
+       "license": "MIT",
+       "version": "0.1.0",
+       "sha256sum": "f9fa6b4830ff61519459e848823e2169288cc99fceef785f724a28e2d995cf93",
+       "foxe": "https://github.com/leonardonels/foxglove-livox-extension/releases/download/v0.1.0/leonardonels.livox-pcl-0.1.0.foxe",
+       "keywords": [
+        "livox",
+        "lidar",
+        "pointcloud",
+        "custommsg",
+        "ros2",
+        "converter"
+      ]
      }
 ]
